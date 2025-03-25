@@ -1,7 +1,7 @@
 const packageInfo = require('./package.json');
 module.exports = {
-    // publicPath: './',
-    publicPath: '/wzry/',
+    publicPath: './',
+    // publicPath: '/wzry/',
     pluginOptions: {
         electronBuilder: {
             builderOptions: {
