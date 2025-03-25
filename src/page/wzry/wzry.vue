@@ -537,6 +537,7 @@ onMounted(() => {
   display: flex;
   align-items: center;
   margin-left: 5px;
+  cursor: pointer;
 }
 
 .cal {
