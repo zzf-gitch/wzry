@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d230b9d"],{ee07:function(n,e,c){"use strict";function d(n,e){return" 我是好友动态 "}c.r(e);var o=c("6b0d"),r=c.n(o);const t={},u=r()(t,[["render",d]]);e["default"]=u}}]);
+//# sourceMappingURL=chunk-2d230b9d.fcc76837.js.map

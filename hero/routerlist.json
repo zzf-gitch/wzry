@@ -1,0 +1,118 @@
+{
+    "list": [{
+            "index": "/zhuye",
+            "name": "主页",
+            "icon": "\ue60f"
+        },
+        {
+            "index": "/zhanji",
+            "name": "战绩",
+            "icon": "\ue61f"
+        },
+        {
+            "index": "/yx",
+            "name": "英雄",
+            "icon": "\ue772"
+        },
+        {
+            "index": "/pf",
+            "name": "皮肤",
+            "icon": "\ue654",
+            "children": [{
+                    "index": "/pfzs",
+                    "title": "皮肤展示"
+                },
+                {
+                    "index": "/pftj",
+                    "title": "皮肤图鉴"
+                }
+            ]
+        },
+        {
+            "index": "/ry",
+            "name": "荣耀",
+            "icon": "\ue63c",
+            "children": [{
+                    "index": "/cj",
+                    "title": "成就"
+                },
+                {
+                    "index": "/wzsy",
+                    "title": "王者生涯",
+                    "icon": "\ue63a",
+                    "children": [{
+                            "index": "/Hero_career",
+                            "positer": "英雄生涯"
+                        },
+                        {
+                            "index": "/Hero_switch",
+                            "positer": "英雄切换"
+                        }
+                    ]
+                },
+                {
+                    "index": "/ryzl",
+                    "title": "荣誉资料"
+                },
+                {
+                    "index": "/bsry",
+                    "title": "比赛荣誉"
+                }
+            ]
+        },
+        {
+            "index": "/hwd",
+            "name": "护卫队",
+            "icon": "\ue653",
+            "children": [{
+                    "index": "/sp",
+                    "title": "审判"
+                },
+                {
+                    "index": "/xy",
+                    "title": "信誉"
+                }
+            ]
+        },
+        {
+            "index": "/yox",
+            "name": "游戏",
+            "icon": "\ue64a",
+            "children": [{
+                    "index": "/dzzl",
+                    "title": "对战资料"
+                },
+                {
+                    "index": "/wxtg",
+                    "title": "万象天宫"
+                }
+            ]
+        },
+        {
+            "index": "/sj",
+            "name": "社交",
+            "icon": "\ue625",
+            "children": [{
+                    "index": "/jymp",
+                    "title": "交友名片"
+                },
+                {
+                    "index": "/grxc",
+                    "title": "个人相册"
+                },
+                {
+                    "index": "/qmgx",
+                    "title": "亲密关系"
+                },
+                {
+                    "index": "/stxx",
+                    "title": "师徒信息"
+                },
+                {
+                    "index": "/xyd",
+                    "title": "心愿单"
+                }
+            ]
+        }
+    ]
+}
