@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+/* --- Universal Box Sizing with Inheritance --- */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* --- Colours --- */
+$w: #fff;
+$p: #eea9e3;
+$pd: #d157a7;
+$g: #ffdcd8;
+$gd: #986962;
+$t: transparent;
+
+/* --- Styles --- */
+body {
+  margin: 0;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+  position: relative;
+}
+
+div {
+  width: 100vw;
+  height: 100vh;
+  background:
+    // stars-sky
+    radial-gradient(circle at 19% 2%, $g 0.08%, $t 0.2%),
+    radial-gradient(circle at 39% 5%, $g 0.05%, $t 0.2%),
+    radial-gradient(circle at 15% 6%, $g 0.08%, $t 0.35%),
+    radial-gradient(circle at 89% 22%, $g 0.05%, $t 0.2%),
+    radial-gradient(circle at 19% 26%, $g 0.1%, $t 0.3%),
+    radial-gradient(circle at 34% 24%, $g 0.05%, $t 0.2%),
+    radial-gradient(circle at 79% 17%, $g 0.1%, $t 0.3%),
+    radial-gradient(circle at 36% 10%, $g 0.03%, $t 0.4%),
+    radial-gradient(circle at 48% 6%, $g 0.1%, $t 0.3%),
+    radial-gradient(circle at 2% 9%, $g 0.05%, $t 0.2%),
+    radial-gradient(circle at 10% 33%, $g 0.03%, $t 0.15%),
+    radial-gradient(circle at 55% 14%, $g 0.05%, $t 0.2%),
+    radial-gradient(circle at 30% 19%, $g 0.1%, $t 0.3%),
+    radial-gradient(circle at 79% 5%, $g 0.05%, $t 0.2%),
+    radial-gradient(circle at 64% 18%, $g 0.02%, $t 0.4%),
+    radial-gradient(circle at 85% 32%, $g 0.02%, $t 0.25%),
+    // stars-water
+    radial-gradient(circle at 19% 98%, $gd 0.08%, $t 0.2%),
+    radial-gradient(circle at 39% 95%, $gd 0.05%, $t 0.2%),
+    radial-gradient(circle at 15% 94%, $gd 0.08%, $t 0.35%),
+    radial-gradient(circle at 89% 78%, $gd 0.05%, $t 0.2%),
+    radial-gradient(circle at 19% 74%, $gd 0.1%, $t 0.3%),
+    radial-gradient(circle at 34% 76%, $gd 0.05%, $t 0.2%),
+    radial-gradient(circle at 79% 83%, $gd 0.1%, $t 0.3%),
+    radial-gradient(circle at 36% 90%, $gd 0.03%, $t 0.4%),
+    radial-gradient(circle at 48% 94%, $gd 0.1%, $t 0.3%),
+    radial-gradient(circle at 2% 91%, $gd 0.05%, $t 0.2%),
+    radial-gradient(circle at 10% 67%, $gd 0.03%, $t 0.15%),
+    radial-gradient(circle at 55% 86%, $gd 0.05%, $t 0.2%),
+    radial-gradient(circle at 30% 81%, $gd 0.1%, $t 0.3%),
+    radial-gradient(circle at 79% 95%, $gd 0.05%, $t 0.2%),
+    radial-gradient(circle at 64% 82%, $gd 0.02%, $t 0.4%),
+    radial-gradient(circle at 85% 68%, $gd 0.02%, $t 0.25%),
+    // colours
+    radial-gradient(
+        $t,
+        rgba(#fb6c59, 0.2),
+        rgba(#78849f, 0.2),
+        rgba(#29304d, 0.8)
+      ),
+    linear-gradient(
+      #65809d,
+      #6e80a9,
+      #fdd3ab,
+      #ffa980,
+      #fd695d 50%,
+      #371038 50.1%,
+      #363d79,
+      #45225c,
+      #1e0410
+    );
+  filter: saturate(1.25);
+
+  &::before,
+  &::after {
+    content: '#JUST_START';
+    height: 85%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13vmin;
+    color: #f9ccca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 5px $p, 0 0 15px $p, 0 0 25px $p, 0 0 35px $p, 0 0 50px $pd,
+      0 0 75px $pd, 0 0 100px $pd, 0 0 150px $pd;
+    animation: flicker 1.5s infinite alternate;
+  }
+
+  &::after {
+    transform: rotateX(180deg) translateY(82%);
+    filter: blur(3px) opacity(50%);
+  }
+}
+
+@keyframes flicker {
+  0%,
+  16%,
+  18%,
+  21%,
+  23%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 0 0 5px $p, 0 0 15px $p, 0 0 25px $p, 0 0 35px $p, 0 0 50px $pd,
+      0 0 75px $pd, 0 0 100px $pd, 0 0 150px $pd;
+  }
+
+  17%,
+  22%,
+  55% {
+    text-shadow: 0 0 5px $p, 0 0 5px $p, 0 0 5px $p, 0 0 15px $p, 0 0 30px $pd,
+      0 0 45px $pd, 0 0 75px $pd, 0 0 125px $pd;
+  }
+}

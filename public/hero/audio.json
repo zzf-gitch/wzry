@@ -1,0 +1,104 @@
+{
+    "listData":[
+        {
+            "name":"你走以后",
+            "singer":"高浪",
+            "audio":"./hero/music/高浪 - 你走以后1.0.mp3"
+        },
+        {
+            "name":"日不落(温柔DJ弹唱版)",
+            "singer":"叶凡凡",
+            "audio":"./hero/music/叶凡凡 - 日不落(温柔DJ弹唱版).mp3"
+        },
+        {
+            "name":"超兽武装",
+            "singer":"陈洁丽,刘罡",
+            "audio":"./hero/music/陈洁丽,刘罡 - 超兽武装.mp3"
+        },
+        {
+            "name":"某年某天（DJ版）",
+            "singer":"发发",
+            "audio":"./hero/music/发发 - 某年某天（DJ版）.mp3"
+        },
+        {
+            "name":"风雨飘洒",
+            "singer":"咖菲",
+            "audio":"./hero/music/咖菲 - 风雨飘洒.mp3"
+        },
+        {
+            "name":"生而平凡DJ",
+            "singer":"李万岁",
+            "audio":"./hero/music/李万岁 - 生而平凡DJ.mp3"
+        },
+        {
+            "name":"篝火旁",
+            "singer":"吕大叶,马子林Broma,陈觅Lynne",
+            "audio":"./hero/music/吕大叶,马子林Broma,陈觅Lynne - 篝火旁.mp3"
+        },
+        {
+            "name":"阿衣莫(越鼓版)",
+            "singer":"娘子",
+            "audio":"./hero/music/娘子 - 阿衣莫(越鼓版).mp3"
+        },
+        {
+            "name":"Letting Go(抖音DJ版)",
+            "singer":"三亚DJ龙仔,三亚DJ阿尚 - 蔡健雅",
+            "audio":"./hero/music/三亚DJ龙仔,三亚DJ阿尚 - 蔡健雅 - Letting Go(抖音DJ版).mp3"
+        },
+        {
+            "name":"天空之外(DJ弹鼓版)",
+            "singer":"万剑一",
+            "audio":"./hero/music/万剑一 - 天空之外(DJ弹鼓版).mp3"
+        },
+        {
+            "name":"爱(Live)",
+            "singer":"小虎队",
+            "audio":"./hero/music/小虎队 - 爱(Live).mp3"
+        },
+        {
+            "name":"女孩(DJ版)",
+            "singer":"Mc赵小涣",
+            "audio":"./hero/music/Mc赵小涣 - 女孩(DJ版).mp3"
+        },
+        {
+            "name":"爱人错过（DJ版）",
+            "singer":"桂智",
+            "audio":"./hero/music/桂智 - 爱人错过（DJ版）.mp3"
+        },
+        {
+            "name":"星月神话（DJ小华仔.咚鼓版）",
+            "singer":"蒙永华,DJ川渝",
+            "audio":"./hero/music/蒙永华,DJ川渝 - 星月神话（DJ小华仔.咚鼓版）.mp3"
+        },
+        {
+            "name":"百年孤寂（DJ弹鼓版）",
+            "singer":"沐泽",
+            "audio":"./hero/music/沐泽 - 百年孤寂（DJ弹鼓版）.mp3"
+        },
+        {
+            "name":"光明（王展鹏 Remix）",
+            "singer":"王展鹏 - 谭艳",
+            "audio":"./hero/music/王展鹏 - 谭艳-光明（王展鹏 Remix）.mp3"
+        },
+        {
+            "name":"起风了 (抖音热播DJ版)",
+            "singer":"小排",
+            "audio":"./hero/music/小排 - 起风了 (抖音热播DJ版).mp3"
+        },
+        {
+            "name":"热播Love story (完整版)",
+            "singer":"妖姬,肖Music",
+            "audio":"./hero/music/妖姬,肖Music - 热播Love story (完整版).mp3"
+        },
+        {
+            "name":"月亮之上Rap（DJ版）",
+            "singer":"妖姬,肖Music",
+            "audio":"./hero/music/妖姬,肖Music - 月亮之上Rap（DJ版）.mp3"
+        },
+        {
+            "name":"最近 (DJ版)",
+            "singer":"浪子康",
+            "audio":"./hero/music/浪子康 - 最近 (DJ版).mp3"
+        }
+    ]
+}

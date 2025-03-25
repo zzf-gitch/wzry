@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+/* --- Universal Box Sizing with Inheritance --- */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* --- Colours --- */
+/* --- Styles --- */
+body {
+  margin: 0;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+  position: relative;
+}
+
+div {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(circle at 19% 2%, #ffdcd8 0.08%, transparent 0.2%), radial-gradient(circle at 39% 5%, #ffdcd8 0.05%, transparent 0.2%), radial-gradient(circle at 15% 6%, #ffdcd8 0.08%, transparent 0.35%), radial-gradient(circle at 89% 22%, #ffdcd8 0.05%, transparent 0.2%), radial-gradient(circle at 19% 26%, #ffdcd8 0.1%, transparent 0.3%), radial-gradient(circle at 34% 24%, #ffdcd8 0.05%, transparent 0.2%), radial-gradient(circle at 79% 17%, #ffdcd8 0.1%, transparent 0.3%), radial-gradient(circle at 36% 10%, #ffdcd8 0.03%, transparent 0.4%), radial-gradient(circle at 48% 6%, #ffdcd8 0.1%, transparent 0.3%), radial-gradient(circle at 2% 9%, #ffdcd8 0.05%, transparent 0.2%), radial-gradient(circle at 10% 33%, #ffdcd8 0.03%, transparent 0.15%), radial-gradient(circle at 55% 14%, #ffdcd8 0.05%, transparent 0.2%), radial-gradient(circle at 30% 19%, #ffdcd8 0.1%, transparent 0.3%), radial-gradient(circle at 79% 5%, #ffdcd8 0.05%, transparent 0.2%), radial-gradient(circle at 64% 18%, #ffdcd8 0.02%, transparent 0.4%), radial-gradient(circle at 85% 32%, #ffdcd8 0.02%, transparent 0.25%), radial-gradient(circle at 19% 98%, #986962 0.08%, transparent 0.2%), radial-gradient(circle at 39% 95%, #986962 0.05%, transparent 0.2%), radial-gradient(circle at 15% 94%, #986962 0.08%, transparent 0.35%), radial-gradient(circle at 89% 78%, #986962 0.05%, transparent 0.2%), radial-gradient(circle at 19% 74%, #986962 0.1%, transparent 0.3%), radial-gradient(circle at 34% 76%, #986962 0.05%, transparent 0.2%), radial-gradient(circle at 79% 83%, #986962 0.1%, transparent 0.3%), radial-gradient(circle at 36% 90%, #986962 0.03%, transparent 0.4%), radial-gradient(circle at 48% 94%, #986962 0.1%, transparent 0.3%), radial-gradient(circle at 2% 91%, #986962 0.05%, transparent 0.2%), radial-gradient(circle at 10% 67%, #986962 0.03%, transparent 0.15%), radial-gradient(circle at 55% 86%, #986962 0.05%, transparent 0.2%), radial-gradient(circle at 30% 81%, #986962 0.1%, transparent 0.3%), radial-gradient(circle at 79% 95%, #986962 0.05%, transparent 0.2%), radial-gradient(circle at 64% 82%, #986962 0.02%, transparent 0.4%), radial-gradient(circle at 85% 68%, #986962 0.02%, transparent 0.25%), radial-gradient(transparent, rgba(251, 108, 89, 0.2), rgba(120, 132, 159, 0.2), rgba(41, 48, 77, 0.8)), linear-gradient(#65809d, #6e80a9, #fdd3ab, #ffa980, #fd695d 50%, #371038 50.1%, #363d79, #45225c, #1e0410);
+  filter: saturate(1.25);
+}
+div::before, div::after {
+  content: "#JUST_START";
+  height: 85%;
+  font-family: "Nunito", sans-serif;
+  font-size: 13vmin;
+  color: #f9ccca;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0 5px #eea9e3, 0 0 15px #eea9e3, 0 0 25px #eea9e3, 0 0 35px #eea9e3, 0 0 50px #d157a7, 0 0 75px #d157a7, 0 0 100px #d157a7, 0 0 150px #d157a7;
+  animation: flicker 1.5s infinite alternate;
+}
+div::after {
+  transform: rotateX(180deg) translateY(82%);
+  filter: blur(3px) opacity(50%);
+}
+
+@keyframes flicker {
+  0%, 16%, 18%, 21%, 23%, 54%, 56%, 100% {
+    text-shadow: 0 0 5px #eea9e3, 0 0 15px #eea9e3, 0 0 25px #eea9e3, 0 0 35px #eea9e3, 0 0 50px #d157a7, 0 0 75px #d157a7, 0 0 100px #d157a7, 0 0 150px #d157a7;
+  }
+  17%, 22%, 55% {
+    text-shadow: 0 0 5px #eea9e3, 0 0 5px #eea9e3, 0 0 5px #eea9e3, 0 0 15px #eea9e3, 0 0 30px #d157a7, 0 0 45px #d157a7, 0 0 75px #d157a7, 0 0 125px #d157a7;
+  }
+}

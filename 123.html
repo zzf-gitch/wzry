@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style type="text/css">
+			 *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    .body {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        flex-direction: column;
+        background-color: #040d15
+    }
+    a{
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        padding: 12px 36px;
+        margin: 10px 0;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 18px;
+        letter-spacing: 2px;
+        border-radius: 40px;
+        background:linear-gradient(90deg,#0162c8,#55e7fc)
+    }
+    a:nth-child(2){
+        background:linear-gradient(90deg,#755bea,#ff72c0)
+    }
+    span{
+        position: absolute;
+        background:linear-gradient(45deg,rgba(255,0,0,.5),rgba(255,255,0,.5),rgba(0,255,255,.5),rgba(0,0,255,.5));
+        transform:translate(-50%,-50%);
+        pointer-events:none;
+        border-radius:50%;
+        animation: animate 1s linear infinite
+    }
+    @keyframes animate {
+        0%{width: 0px;height: 0px;opacity: 0.8;}
+        100%{width: 500px;height: 500px;opacity: 0;}
+    }
+	</style>
+</head>
+<body>
+	<div class="body">
+		<a href="#">Button</a>
+        <a href="#">Button</a>
+	</div>
+	<script type="text/javascript">
+	 const buttons=document.querySelectorAll('a')
+    buttons.forEach(btn =>{
+        btn.addEventListener('click',function(e){
+            let x=e.clientX-e.target.offsetLeft;
+            let y=e.clientY-e.target.offsetTop;
+            let span=document.createElement('span');
+            span.style.left=x+'px';
+            span.style.top=y+'px'
+            this.appendChild(span);
+
+            setTimeout(()=>{
+                span.remove();
+            },1000)
+        })
+    })
+	</script>
+</body>
+</html>

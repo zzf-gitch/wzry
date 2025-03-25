@@ -1,0 +1,240 @@
+{
+  "id": "3354601",
+  "name": "王者荣耀",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "wzry",
+  "glyphs": [
+    {
+      "icon_id": "27876542",
+      "name": "皇冠 会员 王者",
+      "font_class": "a-huangguanhuiyuanwangzhe",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "435951",
+      "name": "身高",
+      "font_class": "shengao",
+      "unicode": "e7ca",
+      "unicode_decimal": 59338
+    },
+    {
+      "icon_id": "629339",
+      "name": "时间",
+      "font_class": "shijian",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "658035",
+      "name": "钱",
+      "font_class": "qian",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "3901168",
+      "name": "特长",
+      "font_class": "techang",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "11372652",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e8ae",
+      "unicode_decimal": 59566
+    },
+    {
+      "icon_id": "4686546",
+      "name": "保存",
+      "font_class": "baocun",
+      "unicode": "ec09",
+      "unicode_decimal": 60425
+    },
+    {
+      "icon_id": "7009659",
+      "name": "清空-24",
+      "font_class": "qingkong-",
+      "unicode": "e68e",
+      "unicode_decimal": 59022
+    },
+    {
+      "icon_id": "82757",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "145438",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "1082780",
+      "name": "编辑",
+      "font_class": "icon",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "12719942",
+      "name": "新建",
+      "font_class": "xinjian",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "1304886",
+      "name": "收起菜单",
+      "font_class": "shouqicaidan",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "1304894",
+      "name": "展开菜单",
+      "font_class": "zhankaicaidan",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "7556168",
+      "name": "关闭全屏",
+      "font_class": "guanbiquanping",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "23237388",
+      "name": "开启全屏",
+      "font_class": "fullscreen-line",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "20323714",
+      "name": "tou_gerenzhuye",
+      "font_class": "tou_gerenzhuye",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "650787",
+      "name": "理财－荣耀",
+      "font_class": "licairongyao",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "716064",
+      "name": "游戏",
+      "font_class": "youxi",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "1983777",
+      "name": "世界地图",
+      "font_class": "shijieditu",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "7319274",
+      "name": "首页小我的战绩",
+      "font_class": "huojian",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "8017284",
+      "name": "银河护卫队-浣熊火箭",
+      "font_class": "yinhehuweidui-huanxionghuojian",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "8099657",
+      "name": "国家地图",
+      "font_class": "guojiaditu",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "8802665",
+      "name": "皮肤",
+      "font_class": "pifu",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "8879449",
+      "name": "国家地图分析",
+      "font_class": "guojiaditufenxi",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "11125632",
+      "name": "社交",
+      "font_class": "13",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "13082807",
+      "name": "水波纹",
+      "font_class": "shuibowen",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "16231800",
+      "name": "地区地图",
+      "font_class": "diquditu",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "19895123",
+      "name": "山西",
+      "font_class": "shanxi",
+      "unicode": "e66b",
+      "unicode_decimal": 58987
+    },
+    {
+      "icon_id": "22447428",
+      "name": "英雄联盟",
+      "font_class": "yingxionglianmeng",
+      "unicode": "e772",
+      "unicode_decimal": 59250
+    },
+    {
+      "icon_id": "24536959",
+      "name": "江苏地图",
+      "font_class": "jiangsuditu",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "25208210",
+      "name": "国家信息库",
+      "font_class": "guojiaxinxiku",
+      "unicode": "e688",
+      "unicode_decimal": 59016
+    },
+    {
+      "icon_id": "26252363",
+      "name": "网格化水波纹",
+      "font_class": "wanggehuashuibowen",
+      "unicode": "e67f",
+      "unicode_decimal": 59007
+    }
+  ]
+}

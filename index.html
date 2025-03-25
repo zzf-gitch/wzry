@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>运算符demo</title>
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        .input {
+            width: 100%;
+            height: 30px;
+            background-color: blue;
+            /* --calc-color:blue ; */
+            background-color: var(--calc-color);
+        }
+
+        :root {
+            --calc-color: red;
+        }
+
+        .form {
+            width: calc(100% - 28px);
+            height: 100%;
+        }
+
+        .flie {
+            width: calc(100% - 28px);
+            height: 100%;
+        }
+
+        /* blur */
+        .aaa {
+            width: 500px;
+            height: 500px;
+            position: relative;
+            /* background: url(public/hero/haibaoLOL/龙王海报.png) no-repeat;
+            background-size: 100% 100%; */
+        }
+
+        .bbb {
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 2;
+            position: absolute;
+            backdrop-filter: blur(10px);
+        }
+
+        .img1 {
+            max-height: 100%;
+            min-width: 100%;
+            position: absolute;
+            inset: 0;
+        }
+
+        .bbb:hover {
+            opacity: 1;
+        }
+
+        .N {
+            color: white;
+            position: absolute;
+            z-index: 1;
+        }
+
+        .ccc {
+            width: 500px;
+            height: 500px;
+            position: relative;
+        }
+
+        .imgs {
+            min-width: 100%;
+            max-height: 100%;
+            position: absolute;
+            inset: 0;
+        }
+
+        .title {
+            color: white;
+            position: absolute;
+            z-index: 1;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+            pointer-events: none;
+        }
+
+        .card {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            backdrop-filter: blur(10px);
+            opacity: 0;
+            z-index: 2;
+        }
+
+        .card:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="width: 100%; height: 100%;">
+        <div class="input">
+            <input type="text" id="font">
+            <input type="text" id="fonts">
+            <button onclick="add()">相加</button>
+            <button onclick="remove()">相减</button>
+            <button onclick="cheng()">相乘</button>
+            <button onclick="chu()">相除</button>
+            <button onclick="qie()">点击切换</button>
+        </div>
+        <div class="showTime"></div>
+        <div style="width:100%;height:calc(100% - 30px)">
+            <form class="form">
+                <a name="add"></a>
+                <!-- 定义锚点 -->
+                <fieldset class="flie">
+                    <legend>体检调查表:</legend>
+                    名字: <input type="text" size="30"><br> 手机号码: <input type="text" size="30"><br> 邮箱地址: <input
+                        type="text" size="10">
+                    编辑:<textarea name="description" style="resize:none;">此处是描述信息</textarea>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <div>
+        <h1>无敌之人</h1>
+        <h1>无敌之人</h1>
+        <h1>无敌之人</h1>
+        <h1>无敌之人</h1>
+        <h1>无敌之人</h1>
+        <h1>无敌之人</h1>
+        <h1>无敌之人</h1>
+        <h1>无敌之人</h1>
+        <h1>无敌之人</h1>
+        <h1>无敌之人</h1>
+        <h1>无敌之人</h1>
+        <h1>无敌之人</h1>
+        <h1>无敌之人</h1>
+        <h1>无敌之人</h1>
+        <button type="button" onclick="gotop()">回到顶部</button>
+    </div>
+    <a href="#add">跳转到add</a>
+
+    <div class="aaa">
+        <div class="bbb">
+            <p>龙王</p><img class="img" src="public/hero/headLOLimg/龙王.jpg" alt="">
+        </div>
+        <img class="img1" src="public/hero/headLOLimg/龙王圣龙.jpg" alt="">
+        <p class="N">No.1</p>
+    </div>
+
+    <div class="ccc">
+        <img class="imgs" src="public/hero/headLOLimg/神王.jpg" alt="">
+        <p class="title">No.2</p>
+        <div class="card">
+            <p>诺手</p><img src="public/hero/headLOLimg/诺手.jpg" alt="">
+        </div>
+    </div>
+    <img class="imgs" src="public/hero/headLOLimg/神王.jpg" alt="">
+    <button onclick="goos()">点击</button>
+    <script type="text/javascript">
+        function add() {
+            let a = Number(document.getElementById('font').value);
+            let b = Number(document.getElementById('fonts').value)
+            console.log(typeof a);
+            let c = a + b
+            alert(c)
+        }
+
+        function remove() {
+            let a = Number(document.getElementById('font').value);
+            let b = Number(document.getElementById('fonts').value);
+            let c = a - b
+            alert(c)
+        }
+
+        function cheng() {
+            let a = Number(document.getElementById('font').value);
+            let b = Number(document.getElementById('fonts').value);
+            let c = a * b
+            alert(c)
+        }
+
+        function chu() {
+            let a = Number(document.getElementById('font').value);
+            let b = Number(document.getElementById('fonts').value);
+            let c = a / b
+            alert(c)
+        }
+
+
+
+        function qie() {
+            let fullScreen = false
+            let isSupport = document.fullscreenEnabled;
+            if (isSupport) {
+                if (document.fullscreenElement) {
+                    document.exitFullscreen();
+                    fullScreen = false;
+                } else {
+                    // 这里选择将html元素全屏展示，也可以选择其它元素
+                    document.documentElement.requestFullscreen();
+                    fullScreen = true;
+                }
+            }
+            console.log(fullScreen || fullScreen == true ? '开启全屏' : '关闭全屏');
+        }
+
+        function gotop() {
+            window.scrollTo(0, 0)
+        }
+        var t = null;
+        t = setTimeout(time, 1000);
+        function time() {
+            clearTimeout(t); //清除定时器
+            let nowDate = new Date();
+            let date = {
+                year: nowDate.getFullYear(),
+                month: nowDate.getMonth() + 1,
+                date: nowDate.getDate(),
+                hh: nowDate.getHours(),
+                mm: nowDate.getMinutes(),
+                ss: nowDate.getSeconds(),
+            };
+            let year = nowDate.getFullYear();
+            let newmonth = date.month >= 10 ? date.month : "0" + date.month;
+            let day = date.date >= 10 ? date.date : "0" + date.date;
+            let hh = date.hh >= 10 ? date.hh : "0" + date.hh;
+            let mm = date.mm >= 10 ? date.mm : "0" + date.mm;
+            let ss = date.ss >= 10 ? date.ss : "0" + date.ss;
+            let timemm = year + '-' + newmonth + '-' + day + ' ' + hh + ":" + mm + ":" + ss;
+            t = setTimeout(time, 1000); //设定定时器，循环运行
+            document.querySelector(".showTime").innerHTML = timemm
+            //   console.log(year);
+        }
+        function goos(){
+            window.open("https://uniapp.dcloud.net.cn/")
+            // window.location.href="https://uniapp.dcloud.net.cn/"
+        }
+        // function fn() {
+        //     console.log(p)
+        //     p = { name: '蜘蛛侦探' }
+        //     console.log(window.p.name)
+        //     console.log(p.name)
+        //     var p = { name: '蝎子莱莱' }
+        //     console.log(p.name)
+        // }
+        // function Person() { }
+        // var p = new Person()
+        // fn()
+        // Person.prototype = { name: '鲨鱼辣椒' }
+        // fn()
+
+
+        // async function fn1() {
+        //     await console.log(1)
+        //     console.log(2)
+        //     await fn2()
+        //     console.log(3)
+        // }
+        // async function fn2() {
+        //     await console.log(4)
+        //     console.log(5)
+        //     await console.log(6)
+        // }
+        // const result = fn1()
+        // console.log(7)
+
+
+
+        // function User(name, age) {
+        //     this.name = name
+        //     this.age = age
+        // }
+        // intro = function () {
+        //     console.log(this.name)
+        // }
+        // howOld = () => {
+        //     console.log(this.age)
+        // }
+        // var name = '蜘蛛侦探', age = 18
+        // var zc = new User('鲨鱼辣椒', 24)
+        // intro()
+        // howOld()
+
+
+        // function User(name, age) {
+        //     console.log(name);
+        //     console.log(age);
+        //     this.name = name
+        //     this.age = age
+        //     this.intro = function () {
+        //         console.log(this.name)
+        //     }
+        //     this.howOld = () => {
+        //         console.log(this.age);
+        //     }
+        // }
+        // var name = "蜘蛛侦探", age = 18
+        // var zc = new User("鲨鱼辣椒", 24)
+        // zc.intro();
+        // zc.howOld()
+
+        // var name = '鲨鱼辣椒'
+        // var o = {
+        //     name: '蜘蛛侦探',
+        //     b: {
+        //         name: '蝎子莱莱',
+        //         fn: function () {
+        //             console.log(o.b.name)
+        //             console.log(this.name);
+        //         }
+        //     }
+        // }
+        // var j = o.b.fn
+        // j()
+
+
+        // function f1() {
+        //     var n = 999
+        //     inc = function () { n += 1 }
+        //     function f2() { console.log(n) }
+        //     return f2
+        // }
+        // var result1 = f1()
+        // var result2 = f1()
+        // result1()
+        // inc()
+        // result1()
+        // result2()
+
+
+        function addToList(item, list) {
+            console.log(list);
+            console.log(item);
+            list.push(item)
+            console.log(list);
+        }
+        const result = addToList("apple", ["banana"])
+        console.log(result)
+        // var arrtest=['1','2'];
+        // var add ='3';
+        // arrtest.push(add);
+    </script>
+</body>
+
+</html>

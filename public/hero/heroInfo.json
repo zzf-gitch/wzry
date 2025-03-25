@@ -1,0 +1,2702 @@
+{
+    "heroList": [
+        {
+            "id": "23",
+            "name": "典韦",
+            "headimg": "./hero/headimg/23.png",
+            "cover": "./hero/wzry/阿韦.jpg",
+            "icon": "./hero/wzryicon/战士icon.png",
+            "pf": "岱宗",
+            "poster": [
+                {
+                    "name": "狂战士",
+                    "url": "./hero/haibao/典韦海报.png"
+                },
+                {
+                    "name": "黄金武士",
+                    "url": "./hero/haibao/典韦黄金武士海报.png"
+                },
+                {
+                    "name": "穷奇",
+                    "url": "./hero/haibao/典韦穷奇海报.png"
+                },
+                {
+                    "name": "蓝屏警告",
+                    "url": "./hero/haibao/典韦蓝屏警告海报.png"
+                },
+                {
+                    "url": "./hero/haibao/典韦岱宗海报.png",
+                    "name":"岱宗"
+                },
+                {
+                    "url": "./hero/haibao/典韦铁甲之心海报.png",
+                    "name":"铁甲之心"
+                }
+            ],
+            "Header": [
+                {
+                    "url": "./hero/heroPFheader/狂战士.png",
+                    "name":"狂战士"
+                },
+                {
+                    "url": "./hero/heroPFheader/黄金武士.png",
+                    "name":"黄金武士"
+                },
+                {
+                    "url": "./hero/heroPFheader/穷奇.png",
+                    "name":"穷奇"
+                },
+                {
+                    "url": "./hero/heroPFheader/蓝屏警告.png",
+                    "name":"蓝屏警告"
+                },
+                {
+                    "url": "./hero/heroPFheader/岱宗.png",
+                    "name":"岱宗"
+                },
+                {
+                    "url": "./hero/heroPFheader/铁甲之心.png",
+                    "name":"铁甲之心"
+                }
+            ],
+            "game": "Honor of Kings",
+            "title": "狂战士",
+            "stature": "183cm",
+            "Position": "战士",
+            "Specialty": "收割",
+            "money": "13888金币/588钻石",
+            "viability": "50",
+            "Damage": "90",
+            "Skill": "30",
+            "difficulty": "10",
+            "time": "2015-09-24",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+            },
+            "url": [
+                "./hero/wzry/岱宗.jpg"
+            ],
+            "skins": [
+                {
+                    "name": "岱宗",
+                    "img": "./hero/wzry/岱宗.jpg",
+                    "head": null
+                },
+                {
+                    "name": "蓝屏警告",
+                    "img": "./hero/wzry/蓝屏警告.jpg",
+                    "head": null
+                },
+                {
+                    "name": "铁甲之心",
+                    "img": "./hero/wzry/铁甲之心.jpg",
+                    "head": null
+                },
+                {
+                    "name": "穷奇",
+                    "img": "./hero/wzry/穷奇.jpg",
+                    "head": null
+                },
+                {
+                    "name": "黄金武士",
+                    "img": "./hero/wzry/黄金武士.jpg",
+                    "head": null
+                }
+            ],
+            "skills": [
+                {
+                    "name": "激怒",
+                    "desc": "典韦每一次击败英雄或者助攻会增加1层激怒效果，每层激怒效果会增加典韦12点物理攻击力，最多叠加20层",
+                    "cd": "0",
+                    "consume": 0,
+                    "img": "./hero/jineng_desc/被动.png"
+                },
+                {
+                    "name": "红眼",
+                    "desc": "典韦做好冲锋陷阵的准备，移除自身控制效果，并且增加60%移动速度，持续3秒，下一次普通攻击变更为挥砍，挥砍会对附近敌人造成额外300/350/400/450/500/550（+100%物理加成）点物理伤害",
+                    "cd": "9/8.6/8.2/7.8/7.4/7",
+                    "consume": 55,
+                    "img": "./hero/jineng_desc/一技能.png"
+                },
+                {
+                    "name": "狂暴",
+                    "desc": "暴怒的典韦践踏大地，对范围内敌人造成250/280/310/340/370/400（+100%物理加成）点物理伤害并减少其50%的移动速度，持续2秒，如果命中敌人将会突破自身极限，增加200%攻击速度和25/30/35/40/45/50%吸血效果，持续3秒",
+                    "cd": "8/7.4/6.8/6.2/5.6/5",
+                    "consume": 65,
+                    "img": "./hero/jineng_desc/二技能.jpg"
+                },
+                {
+                    "name": "嗜血",
+                    "desc": "典韦对锁定目标发起跳斩，造成300/375/450（+120%物理加成）点真实伤害并减少其50%的移动速度，持续3秒，同时会强化自身，对敌人造成的所有伤害附带目标最大生命3%的真实伤害，持续5秒",
+                    "cd": "30/25/20",
+                    "consume": 130,
+                    "img": "./hero/jineng_desc/大招.jpg"
+                }
+            ],
+            "history": "典韦是东汉末曹操帐下的勇将，《三国志》说他“形貌魁梧，膂力过人”，长年担任曹操的贴身护卫。在张绣作乱时，他为了掩护曹操突围恶战而亡。《三国演义》上说，是因为他的一对手戟被偷，不得已拎起两个人战斗，才被杀的。所以，民间传说典韦的武艺，在三国中排名第三，仅仅在吕布和赵云之下，比关羽、张飞都强",
+            "story": "疯狂，疯狂吞噬了身体,这不是属于人的时代,若要生存，须先化身野兽,身躯如山的壮汉趴在军帐之中，他未来的主人正估量着他会有多少忠心，以及这忠心的价值,狂化，是携带魔种基因的人体产生的特殊变异。”黑袍男人用冷静的声音讲述。“能够在最短的时间内，快速提升心，技，体三者之力。当然，代价是丧失理智。狂化者在战斗结束后能够短暂清醒。但整体来说，是不可逆转的,被当成野兽鄙视和唾骂的日子，因为与老师的相遇得以摆脱。老师的怜悯和耐心教导，让他成为人。还有初次的建功立业！在老师的鼓励下，才能以一己之力挽救一座城市。没错，自己能像正常人一样拥有理智吧，甚至还能像真正的战士般去争取荣耀"
+        },
+        {
+            "id": "51",
+            "name": "刘备",
+            "icon": "./hero/wzryicon/战士icon.png",
+            "headimg": "./hero/headimg/51.png",
+            "cover": "./hero/wzry/阿备.jpg",
+            "game": "Honor of Kings",
+            "pf": "时之恋人",
+            "poster": [
+                {
+                    "name": "仁德义枪",
+                    "url": "./hero/haibao/刘备海报.png"
+                },
+                {
+                    "name": "万事如意",
+                    "url": "./hero/haibao/刘备万事如意海报.png"
+                },
+                {
+                    "name": "纽约教父",
+                    "url": "./hero/haibao/刘备纽约教父海报.png"
+                },
+                {
+                    "name": "汉昭烈帝",
+                    "url": "./hero/haibao/刘备汉昭烈帝海报.png"
+                },
+                {
+                    "url": "./hero/haibao/刘备时之恋人海报.png",
+                    "name":"时之恋人"
+                },
+                {
+                    "url": "./hero/haibao/刘备潮玩造梦师海报.png",
+                    "name":"潮玩造梦师"
+                }
+            ],
+            "Header": [
+                {
+                    "url": "./hero/heroPFheader/仁德义枪.png",
+                    "name":"仁德义枪"
+                },
+                {
+                    "url": "./hero/heroPFheader/万事如意.png",
+                    "name":"万事如意"
+                },
+                {
+                    "url": "./hero/heroPFheader/纽约教父.png",
+                    "name":"纽约教父"
+                },
+                {
+                    "url": "./hero/heroPFheader/汉昭烈帝.png",
+                    "name":"汉昭烈帝"
+                },
+                {
+                    "url": "./hero/heroPFheader/时之恋人.png",
+                    "name":"时之恋人"
+                },
+                {
+                    "url": "./hero/heroPFheader/潮玩造梦师.png",
+                    "name":"潮玩造梦师"
+                }
+            ],
+            "title": "仁德义枪",
+            "stature": "178cm",
+            "Position": "战士",
+            "Specialty": "突进/收割",
+            "money": "13888金币/588点券",
+            "viability": "90",
+            "Damage": "90",
+            "Skill": "60",
+            "difficulty": "50",
+            "time": "2015-09-25",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+            },
+            "url": [
+                "./hero/wzry/阿备.jpg"
+            ],
+            "skins": [
+                {
+                    "name": "岱宗",
+                    "img": "./hero/wzry/岱宗.jpg",
+                    "head": null
+                },
+                {
+                    "name": "蓝屏警告",
+                    "img": "./hero/wzry/蓝屏警告.jpg",
+                    "head": null
+                },
+                {
+                    "name": "铁甲之心",
+                    "img": "./hero/wzry/铁甲之心.jpg",
+                    "head": null
+                },
+                {
+                    "name": "穷奇",
+                    "img": "./hero/wzry/穷奇.jpg",
+                    "head": null
+                },
+                {
+                    "name": "黄金武士",
+                    "img": "./hero/wzry/黄金武士.jpg",
+                    "head": null
+                }
+            ],
+            "skills": [
+                {
+                    "name": "强化霰弹",
+                    "desc": "刘备的火铳是霰弹枪，目标会受到50%总攻击力+40%×额外弹丸数的总伤害；每颗弹丸命中敌方英雄，会增加1层战斗本能，战斗本能会给刘备增加3~11点物理穿透，持续6秒，最多叠加12层，增加幅度随英雄等级成长；每次射击只有中间的2颗弹丸能够暴击并触发装备效果；建筑不受额外弹丸影响",
+                    "cd": "0",
+                    "consume": 0,
+                    "img": "./hero/jineng_desc/刘备被动.png"
+                },
+                {
+                    "name": "双重射击",
+                    "desc": "刘备增加40%移动速度，持续1.5秒，并在下一次普通攻击变更为两次连射，连射时每颗弹丸会造成150/170/190/210/230/250（+25%物理加成）点物理伤害",
+                    "cd": "8/7.6/7.2/6.8/6.4/6",
+                    "consume": 60,
+                    "img": "./hero/jineng_desc/刘备一技能.png"
+                },
+                {
+                    "name": "身先士卒",
+                    "desc": "刘备向指定方向冲撞，对撞击到的敌人造成180/200/220/240/260/280（+70%物理加成）点物理伤害并停止冲撞；同时撞击到的敌人会被击退；若撞击到敌方英雄将减少2秒身先士卒的冷却时间",
+                    "cd": "10/9.4/8.8/8.2/7.6/7",
+                    "consume": 80,
+                    "img": "./hero/jineng_desc/刘备二技能.png"
+                },
+                {
+                    "name": "以德服人",
+                    "desc": "刘备立即解除自身的控制效果，并获得可抵免1000/1500/2000点伤害的护盾，持续6秒；开启技能后获得3秒免疫控制效果，同时将对敌方英雄造成伤害的60%转化为护盾值，对小兵和野怪造成伤害的20%转化为护盾值，护盾上限为初始值的150%；释放技能还会获得50/100/150点物理攻击力加成，持续6秒",
+                    "cd": "60/55/5",
+                    "consume": 130,
+                    "img": "./hero/jineng_desc/刘备大招.png"
+                }
+            ],
+            "history": "刘备，字玄德，三国时蜀汉的开国皇帝。事迹见于《三国志·蜀书》。刘备虽是汉朝宗室，但家道早已中落。因平定黄巾起义建功，与关羽、张飞结为兄弟。后来几经起伏，在依附荆州刘表之际，赶上曹操南下，他与孙权联合，在赤壁破曹，奠定了天下三分的局面。夺取益州之后，建立蜀汉政权。《三国志》作者陈寿说刘备弘毅宽厚，善于识人，有刘邦的风范和英雄气量",
+            "story": "我们三人不约而同伸出手。甫一触摸到铁匣，记忆碎片纷纷涌入脑海。从很久之前，从超越时间的过往中，我的兄弟们曾经与我同生共死，祸福相依，却壮志未酬身先死，看着他们一个个在眼前倒下，我无能为力。是前生的故事？我讨厌，讨厌这样的别离,同生共死，同甘共苦!,祸福相依，天地可鉴!,出来混，最重要的是讲义气！"
+        },
+        {
+            "id": "7",
+            "name": "孙尚香",
+            "pf": "末日之甲",
+            "game": "Honor of Kings",
+            "headimg": "./hero/headimg/7.png",
+            "cover": "./hero/wzry/阿香.jpg",
+            "icon": "./hero/wzryicon/射手icon.png",
+            "poster": [
+                {
+                    "name": "千金重弩",
+                    "url": "./hero/haibao/孙尚香海报.png"
+                },
+                {
+                    "name": "火炮千金",
+                    "url": "./hero/haibao/孙尚香火炮千金海报.png"
+                },
+                {
+                    "name": "水果甜心",
+                    "url": "./hero/haibao/孙尚香水果甜心海报.png"
+                },
+                {
+                    "name": "蔷薇恋人",
+                    "url": "./hero/haibao/孙尚香蔷薇恋人海报.png"
+                },
+                {
+                    "url": "./hero/haibao/孙尚香杀手不太冷海报.png",
+                    "name":"杀手不太冷"
+                },
+                {
+                    "url": "./hero/haibao/孙尚香末日机甲海报.png",
+                    "name":"末日机甲"
+                },
+                {
+                    "url": "./hero/haibao/孙尚香沉稳之力海报.png",
+                    "name":"沉稳之力"
+                },
+                {
+                    "url": "./hero/haibao/孙尚香时之恋人海报.png",
+                    "name":"时之恋人"
+                },
+                {
+                    "url": "./hero/haibao/孙尚香异界灵契海报.png",
+                    "name":"异界灵契"
+                },
+                {
+                    "url": "./hero/haibao/孙尚香音你闪耀海报.png",
+                    "name":"音你闪耀"
+                }
+            ],
+            "Header": [
+                {
+                    "url": "./hero/heroPFheader/千金重弩.png",
+                    "name":"千金重弩"
+                },
+                {
+                    "url": "./hero/heroPFheader/火炮千金.png",
+                    "name":"火炮千金"
+                },
+                {
+                    "url": "./hero/heroPFheader/水果甜心.png",
+                    "name":"水果甜心"
+                },
+                {
+                    "url": "./hero/heroPFheader/蔷薇恋人.png",
+                    "name":"蔷薇恋人"
+                },
+                {
+                    "url": "./hero/heroPFheader/杀手不太冷.png",
+                    "name":"杀手不太冷"
+                },
+                {
+                    "url": "./hero/heroPFheader/末日机甲.png",
+                    "name":"末日机甲"
+                },
+                {
+                    "url": "./hero/heroPFheader/沉稳之力.png",
+                    "name":"沉稳之力"
+                },
+                {
+                    "url": "./hero/heroPFheader/时之恋人香.png",
+                    "name":"时之恋人"
+                },
+                {
+                    "url": "./hero/heroPFheader/异界灵契.png",
+                    "name":"异界灵契"
+                },
+                {
+                    "url": "./hero/heroPFheader/音你闪耀.png",
+                    "name":"音你闪耀"
+                }
+            ],
+            "title": "千金重弩",
+            "stature": "165cm",
+            "Position": "射手",
+            "Specialty": "持续输出",
+            "money": "5888金币/588点券",
+            "viability": "40",
+            "Damage": "60",
+            "Skill": "20",
+            "difficulty": "50",
+            "time": "2015-09-26",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+            },
+            "skins": [
+                {
+                    "name": "岱宗",
+                    "img": "./hero/wzry/岱宗.jpg",
+                    "head": null
+                },
+                {
+                    "name": "蓝屏警告",
+                    "img": "./hero/wzry/蓝屏警告.jpg",
+                    "head": null
+                },
+                {
+                    "name": "铁甲之心",
+                    "img": "./hero/wzry/铁甲之心.jpg",
+                    "head": null
+                },
+                {
+                    "name": "穷奇",
+                    "img": "./hero/wzry/穷奇.jpg",
+                    "head": null
+                },
+                {
+                    "name": "黄金武士",
+                    "img": "./hero/wzry/黄金武士.jpg",
+                    "head": null
+                }
+            ],
+            "skills": [
+                {
+                    "name": "活力迸发",
+                    "desc": "孙尚香每次普通攻击命中敌人都会减少0.5秒翻滚突袭的冷却时间。",
+                    "cd": "0",
+                    "consume": 0,
+                    "img": "./hero/jineng_desc/孙尚香被动.png"
+                },
+                {
+                    "name": "翻滚突袭",
+                    "desc": "孙尚香向指定方向翻滚，下一次普通攻击变更为强化射击，强化射击会对一条直线上的敌人造成270/290/310/330/350/370（+100%物理加成）点物理伤害，如果翻滚后附近有敌方英雄将会增加80%持续衰减的移动速度，持续2秒，使用强化射击后会重置下一次普通攻击并增加攻击距离",
+                    "cd": "5",
+                    "consume": 25,
+                    "img": "./hero/jineng_desc/孙尚香一技能.png"
+                },
+                {
+                    "name": "红莲爆弹",
+                    "desc": "孙尚香朝指定位置投掷爆弹，对范围内敌人造成150/170/190/210/230/250（+100%物理加成）点物理伤害并减少其90%移动速度，持续1秒。被命中的英雄和小兵还会被标记5秒，孙尚香的普攻伤害会对标记目标造成额外100/120/140/160/180/200（+20%物理加成）点物理伤害（对小兵的伤害翻倍）；命中敌人后增加孙尚香物理穿透25%,持续5秒",
+                    "cd": "8.0/7.6/7.2/6.8/6.4/6.0",
+                    "consume": 50,
+                    "img": "./hero/jineng_desc/孙尚香二技能.png"
+                },
+                {
+                    "name": "究极弩炮",
+                    "desc": "孙尚香蓄力向指定方向发射一枚弩炮，弩炮在触碰敌人或者飞行到最远距离后将发生爆炸，对第一名触碰的敌人造成500/750/1000（+185%物理加成）点物理伤害，对爆破范围内的敌人造成75%伤害",
+                    "cd": "30/25/20",
+                    "consume": 100,
+                    "img": "./hero/jineng_desc/孙尚香大招.png"
+                }
+            ],
+            "history": "孙夫人，为三国时期吴主孙权之妹，刘备的续弦夫人，人称孙夫人，孙尚香只是孙夫人在民间传说中的名字。孙夫人是东吴之主孙权的妹妹，在赤壁之战后，嫁给了刘备，成为孙刘两家结盟的象征。据《三国志·庞统法正传》，孙夫人尚武，有才具。连刘备进了她的房间，都心生敬畏。但是，据说孙夫人嫁到荆州之后颇为凶悍，归宁之日居然要带走刘备唯一的儿子刘禅，幸亏被赵云截下。后来由于孙刘两家闹翻，回到娘家的孙夫人，再也没能回到刘备身边",
+            "story": "富庶的江南地区时常引来海盗和掠夺者的觊觎，甚至还有来自遥远扶桑的浪人骚扰,很快，精力过剩的小公主和她那把经过特殊改装的巨大枪炮就扬名沿海。有时候是趾高气扬的“海盗公主”，有时候是端正社会法律的“风纪委员”，有时候是惩恶扬善的“怪盗女郎”……一时间，关于破坏力强大的神秘少女的身份传闻得沸沸扬扬。每当发生不妙事件时，就有无聊人士开出赌局，竞猜她将会以什么样的形象登场。连以冷酷著称的监护人周瑜时常都被气得怪笑连连,大小姐驾到！统统闪开"
+        },
+        {
+            "id": "11",
+            "name": "高渐离",
+            "pf": "玩趣恶龙",
+            "icon": "./hero/wzryicon/法师icon.png",
+            "headimg": "./hero/headimg/11.png",
+            "game": "Honor of Kings",
+            "cover": "./hero/wzry/阿离.jpg",
+            "poster": [
+                {
+                    "name": "叛逆吟游",
+                    "url": "./hero/haibao/高渐离海报.png"
+                },
+                {
+                    "name": "金属狂潮",
+                    "url": "./hero/haibao/高渐离金属狂潮海报.png"
+                },
+                {
+                    "name": "死亡摇滚",
+                    "url": "./hero/haibao/高渐离死亡摇滚海报.png"
+                },
+                {
+                    "name": "玩趣恶龙",
+                    "url": "./hero/haibao/高渐离玩趣恶龙海报.png"
+                },
+                {
+                    "url": "./hero/haibao/高渐离天秀·音浪海报.png",
+                    "name":"天秀·音浪"
+                }
+            ],
+            "Header": [
+                {
+                    "url": "./hero/heroPFheader/叛逆吟游.png",
+                    "name":"叛逆吟游"
+                },
+                {
+                    "url": "./hero/heroPFheader/金属狂潮.png",
+                    "name":"金属狂潮"
+                },
+                {
+                    "url": "./hero/heroPFheader/死亡摇滚.png",
+                    "name":"死亡摇滚"
+                },
+                {
+                    "url": "./hero/heroPFheader/玩趣恶龙.png",
+                    "name":"玩趣恶龙"
+                },
+                {
+                    "url": "./hero/heroPFheader/天秀·音浪.png",
+                    "name":"天秀·音浪"
+                }
+            ],
+            "title": "叛逆吟游",
+            "stature": "180cm",
+            "Position": "法师",
+            "Specialty": "爆发",
+            "money": "13888金币/588点券",
+            "viability": "40",
+            "Damage": "60",
+            "Skill": "20",
+            "difficulty": "50",
+            "time": "2015-09-27",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+            },
+            "skins": [
+                {
+                    "name": "岱宗",
+                    "img": "./hero/wzry/岱宗.jpg",
+                    "head": null
+                },
+                {
+                    "name": "蓝屏警告",
+                    "img": "./hero/wzry/蓝屏警告.jpg",
+                    "head": null
+                },
+                {
+                    "name": "铁甲之心",
+                    "img": "./hero/wzry/铁甲之心.jpg",
+                    "head": null
+                },
+                {
+                    "name": "穷奇",
+                    "img": "./hero/wzry/穷奇.jpg",
+                    "head": null
+                },
+                {
+                    "name": "黄金武士",
+                    "img": "./hero/wzry/黄金武士.jpg",
+                    "head": null
+                }
+            ],
+            "skills": [
+                {
+                    "name": "哀歌",
+                    "desc": "高渐离的普通攻击或释放技能可视作一次演奏，每三次演奏后的下一次普通攻击将会向目标弹奏出带有击穿效果的能量和弦，造成280/300/320/340/360/380（+95%法术加成）的法术伤害",
+                    "cd": "0",
+                    "consume": 0,
+                    "img": "./hero/jineng_desc/高渐离被动.png"
+                },
+                {
+                    "name": "狂歌",
+                    "desc": "高渐离弹奏出音符，锁定附近至多2名敌人造成350/410/470/530/590/650（+47%法术加成）点法术伤害；音符命中敌人后，会向附近的敌人进行弹射，音符至多弹射2次；当多个音符命中同一目标时，从第二个音符开始将只造成30%伤害",
+                    "cd": "7",
+                    "consume": 80,
+                    "img": "./hero/jineng_desc/高渐离一技能.png"
+                },
+                {
+                    "name": "离歌",
+                    "desc": "高渐离震慑琴弦，对附近敌人造成500/560/620/680/740/800（+65%法术加成）点法术伤害并减少其35%/40%/45%/50%/55%/60%移动速度，持续2秒，每命中一个英雄将回复125/140/155/170/185/200(+16%法术加成）生命值",
+                    "cd": "10/9.4/8.8/8.2/7.6/7",
+                    "consume": 70,
+                    "img": "./hero/jineng_desc/高渐离二技能.png"
+                },
+                {
+                    "name": "魔音贯耳",
+                    "desc": "高渐离释放激情，每0.5秒进行一次演奏，对附近敌人造成200/250/300（+15%法术加成）点法术伤害，持续5秒；演奏持续时自身会减少15%所受到的伤害，并且附近每个敌方英雄还将减少高渐离5%所收到的伤害；并且在演奏开始时自身会增加70%持续衰减的移动速度，持续3秒",
+                    "cd": "45/40/35",
+                    "consume": 140,
+                    "img": "./hero/jineng_desc/高渐离大招.png"
+                }
+            ],
+            "history": "高渐离，战国末期的燕国人，音乐家，善击筑（一种古之打击乐）。据《战国策》记载，高渐离与荆轲相友善，饮与市，边击筑边引吭高歌。当燕太子丹招募荆轲谋刺秦王政之际，燕太子丹在易水边为英雄送别，高渐离为之击筑。荆轲刺秦失败之后，传说高渐离隐姓埋名，浪迹天涯，后来得以凭音乐技能混迹于秦宫，为秦始皇击筑，谋刺秦皇，未果而身死",
+            "story": "这位天才乐师从初次公开演奏起，就以完美的琴音，狂放不羁的个性征服了人们——尤其是纯情的少女。在声名巅峰时，他夜夜笙歌，将轻松得来的金钱大笔挥霍，身旁围绕着各色美人,离开长平后，高渐离四处联络反秦志士，结识了燕国太子丹。这是他邂逅一生中最重要之人的开始……太子丹嫉妒将军樊於期，想雇佣荆轲刺杀他，却不想被荆轲拒绝。恼羞成怒的太子丹将不服从自己的樊於期和荆轲的头颅，双双展示在盛大的宴会上。然而，所谓“荆轲”并不是一个人……以乐师身份参加宴会的高渐离救下了刺杀太子丹后重伤昏迷的刺客"
+        },
+        {
+            "id": "83",
+            "name": "司马懿",
+            "pf": "暗渊魔法",
+            "icon": "./hero/wzryicon/刺客icon.png",
+            "headimg": "./hero/headimg/83.png",
+            "cover": "./hero/wzry/阿懿.jpg",
+            "poster": [
+                {
+                    "name": "寂灭之心",
+                    "url": "./hero/haibao/司马懿海报.png"
+                },
+                {
+                    "name": "魇语军师",
+                    "url": "./hero/haibao/司马懿魇语军师海报.png"
+                },
+                {
+                    "name": "暗渊魔法",
+                    "url": "./hero/haibao/司马懿暗渊魔法海报.png"
+                }
+            ],
+            "Header": [
+                {
+                    "url": "./hero/heroPFheader/寂灭之心.png",
+                    "name":"寂灭之心"
+                },
+                {
+                    "url": "./hero/heroPFheader/魇语军师.png",
+                    "name":"魇语军师"
+                },
+                {
+                    "url": "./hero/heroPFheader/暗渊魔法.png",
+                    "name":"暗渊魔法"
+                }
+            ],
+            "title": "寂灭之心",
+            "stature": "180cm",
+            "game": "Honor of Kings",
+            "Position": "刺客/法师",
+            "Specialty": "爆发",
+            "money": "18888金币/688点券",
+            "viability": "50",
+            "Damage": "20",
+            "Skill": "80",
+            "difficulty": "60",
+            "time": "2018-08-23",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+            },
+            "skins": [
+                {
+                    "name": "岱宗",
+                    "img": "./hero/wzry/岱宗.jpg",
+                    "head": null
+                },
+                {
+                    "name": "蓝屏警告",
+                    "img": "./hero/wzry/蓝屏警告.jpg",
+                    "head": null
+                },
+                {
+                    "name": "铁甲之心",
+                    "img": "./hero/wzry/铁甲之心.jpg",
+                    "head": null
+                },
+                {
+                    "name": "穷奇",
+                    "img": "./hero/wzry/穷奇.jpg",
+                    "head": null
+                },
+                {
+                    "name": "黄金武士",
+                    "img": "./hero/wzry/黄金武士.jpg",
+                    "head": null
+                }
+            ],
+            "skills": [
+                {
+                    "name": "静默之语",
+                    "desc": "司马懿能够获得2000范围内施法者的视野且在该范围内释放技能会为司马懿，幽影之牙：司马懿增加30点移动速度并将手持巨大的镰刀进行普通攻击，持续4秒，镰刀每击造成250（+40%法术加成）点法术伤害，召唤镰刀后的首次攻击可位移到目标身后造成500（+80%法术加成）点法术伤害",
+                    "cd": "0",
+                    "consume": "0",
+                    "img": "./hero/jineng_desc/司马懿被动.png"
+                },
+                {
+                    "name": "幽影之咬",
+                    "desc": "司马懿释放无法被选中的灵体，持续两面，控制灵体时本体免疫控制；灵体穿过的敌人时造成100/120/140/160/180/200（+20%法术加成）点法术伤害，释放普通攻击或效果结束后本体将会移动至灵体的位置，并对路径上的敌人造成100/120/140/160/180/200（+20%法术加成）点法术伤害和50%减速，持续1秒",
+                    "cd": "9",
+                    "consume": "40",
+                    "img": "./hero/jineng_desc/司马懿一技能.png"
+                },
+                {
+                    "name": "荒芜之域",
+                    "desc": "司马懿释放灵力，压制周围的区域造成300/340/380/420/460/500（+30%法术加成）点法术伤害与1秒沉默，如果司马懿2秒后还在被压制的区域中则会获得25/30/35/40/45/50点的能量；被动：司马懿吸收部分的法术伤害时，将其中30%在5秒内转化为生命值",
+                    "cd": "6",
+                    "consume": "40",
+                    "img": "./hero/jineng_desc/司马懿二技能.png"
+                },
+                {
+                    "name": "死神降临",
+                    "desc": "司马懿化身死神，在短暂的蓄力后向指定地点冲击，造成700/875/1050（100%法术加成）点法术伤害，并且会对冲击路径触碰的敌人造成50%伤害",
+                    "cd": "35/30/25",
+                    "consume": "40",
+                    "img": "./hero/jineng_desc/司马懿大招.png"
+                }
+            ],
+            "history": "司马懿，字仲达，三国时期著名政治家、军事谋略家。自幼聪颖，博学洽闻，其人善谋奇策，多次征伐有功，对屯田、水利等农耕经济发展有重要贡献。曾因曹操出身不好，一度拒绝曹操授予的官职，但曹操任丞相后，强行辟司马懿为文学掾，后司马懿支持曹操称帝，才逐渐赢得曹操的信任",
+            "story": "记住我最后的样子。”从手臂开始，司马身上蔓延出无数的黑影，“我没有受伤。赤壁之战，我就是迫使你给我打开东风祭坛……黑暗力量激发了我，我的能量做了一次更新，所以……虚弱不堪。但是现在……差不多了……——你在黑暗里给我写下的那个字，我再也用不着了,浅蓝的光一闪而过，从天而将的复仇者似乎要利用这最后的机会召唤海潮，阻挡司马的前进，时空穿梭之术击退了阻拦的力量。诸葛知道，自己正在做这一生中最后悔的事"
+        },
+        {
+            "id": "87",
+            "name": "李信",
+            "pf": "一念神魔",
+            "headimg": "./hero/headimg/87.png",
+            "cover": "./hero/wzry/阿信.jpg",
+            "icon": "./hero/wzryicon/战士icon.png",
+            "poster": [
+                {
+                    "name": "谋世之战",
+                    "url": "./hero/haibao/李信海报.png"
+                },
+                {
+                    "name": "灼热之刃",
+                    "url": "./hero/haibao/李信灼热之刃海报.png"
+                },
+                {
+                    "name": "一念神魔",
+                    "url": "./hero/haibao/李信一念神魔海报.png"
+                },
+                {
+                    "name": "山海·炽霜斩",
+                    "url": "./hero/haibao/李信山海·炽霜斩海报.png"
+                }
+            ],
+            "Header": [
+                {
+                    "url": "./hero/heroPFheader/谋世之战.png",
+                    "name":"谋世之战"
+                },
+                {
+                    "url": "./hero/heroPFheader/灼热之刃.png",
+                    "name":"灼热之刃"
+                },
+                {
+                    "url": "./hero/heroPFheader/一念神魔.png",
+                    "name":"一念神魔"
+                },
+                {
+                    "name": "山海·炽霜斩",
+                    "url": "./hero/heroPFheader/山海·炽霜斩.png"
+                }
+            ],
+            "title": "谋世之战",
+            "stature": "187cm",
+            "game": "Honor of Kings",
+            "Position": "战士",
+            "Specialty": "突进/团控",
+            "money": "13888金币/588点券",
+            "viability": "90",
+            "Damage": "50",
+            "Skill": "60",
+            "difficulty": "65",
+            "time": "2018-11-22",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+            },
+            "skins": [
+                {
+                    "name": "岱宗",
+                    "img": "./hero/wzry/岱宗.jpg",
+                    "head": null
+                },
+                {
+                    "name": "蓝屏警告",
+                    "img": "./hero/wzry/蓝屏警告.jpg",
+                    "head": null
+                },
+                {
+                    "name": "铁甲之心",
+                    "img": "./hero/wzry/铁甲之心.jpg",
+                    "head": null
+                },
+                {
+                    "name": "穷奇",
+                    "img": "./hero/wzry/穷奇.jpg",
+                    "head": null
+                },
+                {
+                    "name": "黄金武士",
+                    "img": "./hero/wzry/黄金武士.jpg",
+                    "head": null
+                }
+            ],
+            "skills": [
+                {
+                    "name": "急速突进",
+                    "desc": "李信向指定方向进行突进；无畏冲锋：李信积蓄力量，如果李信蓄力超过1秒，在蓄力结束时会提升40%攻击速度持续3秒，同时蓄力增加的移动速度也不会直接结束而是在3秒内缓慢结束。李信每次普攻命中敌人都可以减少一技能1秒的冷却时间；希望之跃：李信积蓄力量，点物理伤害并会附加目标已损生命值12%的物理伤害",
+                    "cd": "8/7/6/5/4/3",
+                    "consume": "0",
+                    "img": "./hero/jineng_desc/李信一技能.png"
+                },
+                {
+                    "name": "强力斩击",
+                    "desc": "李信向指定方向斩出剑气，对路径上敌人造成300/350/400/450/500/550（+100%物理加成）点物理伤害和减速持续2秒；残暴撕裂：李信向指定方向斩出剑气",
+                    "cd": "5",
+                    "consume": "0",
+                    "img": "./hero/jineng_desc/李信二技能.png"
+                },
+                {
+                    "name": "力量觉醒·光",
+                    "desc": "李信学习大招的瞬间解放魔道家族的力量，改变战斗形态至统御；暗影爆发：李信释放力量，短多道剑气命中同个目标时，蓄力打断会返还40%的冷却时间。在释放剑气时仍会有免控效果",
+                    "cd": "30",
+                    "consume": "0",
+                    "img": "./hero/jineng_desc/李信三技能.png"
+                },
+                {
+                    "name": "力量觉醒·暗",
+                    "desc": "李信学习大招的瞬间解放黑暗复仇的力量，改变战斗形态至狂暴；力量掌控：李信压制身体内狂暴的力量，转化为统御形态；力量解放：李信解放身体内狂暴的力量，转化为狂暴形态；变身过程无法被技能打断",
+                    "cd": "30",
+                    "consume": "0",
+                    "img": "./hero/jineng_desc/李信大招.png"
+                }
+            ],
+            "history": "李信（生卒年不详），字有成，槐里（今陕西咸阳兴平东）人，战国末期秦国名将。李信在灭燕国之战中立有大功。后领兵二十万攻打楚国，先是一路凯歌，后来因为昌平君反叛秦国而腹背受敌，被楚将项燕大败",
+            "story": "你失去了长安城，而我，也失去了自己的心爱之物。不如，你帮助我夺回这心爱之物，我，则帮助你重新得到长安城，如何？"
+        },
+        {
+            "id": "46",
+            "name": "橘右京",
+            "pf": "修罗",
+            "headimg": "./hero/headimg/46.png",
+            "cover": "./hero/wzry/阿橘.jpg",
+            "poster": [
+                {
+                    "name": "神梦一刀",
+                    "url": "./hero/haibao/橘右京海报.png"
+                },
+                {
+                    "name": "修罗",
+                    "url": "./hero/haibao/橘右京修罗海报.png"
+                },
+                {
+                    "name": "枫霜尽",
+                    "url": "./hero/haibao/橘右京枫霜尽海报.png"
+                }
+            ],
+            "Header": [
+                {
+                    "url": "./hero/heroPFheader/神梦一刀.png",
+                    "name":"神梦一刀"
+                },
+                {
+                    "url": "./hero/heroPFheader/修罗.png",
+                    "name":"修罗"
+                },
+                {
+                    "url": "./hero/heroPFheader/枫霜尽.png",
+                    "name":"枫霜尽"
+                }
+            ],
+            "title": "たちばなうきょう",
+            "stature": "180cm",
+            "icon": "./hero/wzryicon/刺客icon.png",
+            "game": "Honor of Kings",
+            "Position": "刺客/战士",
+            "Specialty": "远程消耗/收割",
+            "money": "限时活动获取",
+            "viability": "80",
+            "Damage": "20",
+            "Skill": "30",
+            "difficulty": "60",
+            "time": "2016-08-29",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+            },
+            "skins": [
+                {
+                    "name": "岱宗",
+                    "img": "./hero/wzry/岱宗.jpg",
+                    "head": null
+                },
+                {
+                    "name": "蓝屏警告",
+                    "img": "./hero/wzry/蓝屏警告.jpg",
+                    "head": null
+                },
+                {
+                    "name": "铁甲之心",
+                    "img": "./hero/wzry/铁甲之心.jpg",
+                    "head": null
+                },
+                {
+                    "name": "穷奇",
+                    "img": "./hero/wzry/穷奇.jpg",
+                    "head": null
+                },
+                {
+                    "name": "黄金武士",
+                    "img": "./hero/wzry/黄金武士.jpg",
+                    "head": null
+                }
+            ],
+            "skills": [
+                {
+                    "name": "秘剑胧刀",
+                    "desc": "橘右京将下一次普攻将进行一次强力拔刀斩，对前方敌人造成130%物理加成物理伤害并减少50%移动速度，持续2秒；拔刀斩每5秒可准备1次；对处于攻击边缘的敌人将承受50%的物理伤害",
+                    "cd": "5",
+                    "consume": "0",
+                    "img": "./hero/jineng_desc/橘右京被动.png"
+                },
+                {
+                    "name": "燕返",
+                    "desc": "橘右京跃向后方，同时向前方挥刀，对附近的敌人造成150/180/210/240/270/300（+140%物理加成）点物理伤害，若成功命中一名敌方单位，可激活二段使用",
+                    "cd": "7",
+                    "consume": "0",
+                    "img": "./hero/jineng_desc/橘右京一技能.png"
+                },
+                {
+                    "name": "居合",
+                    "desc": "橘右京向指定方向快速拔刀，对路径上的第一个敌人造成330/350/400/450/500/550（+180%物理加成）点物理伤害，对路上的其余敌人造成的伤害将衰减50%,并将路径末端的敌人眩晕0.75秒",
+                    "cd": "10/9.5/9/8.5/8/7.5",
+                    "consume": "0",
+                    "img": "./hero/jineng_desc/橘右京二技能.png"
+                },
+                {
+                    "name": "细雪",
+                    "desc": "橘右京向指定方向连续拔刀四次，每次命中造成100/150/200（+70%物理加成）点物理伤害并且每次命中敌方英雄，自身将回复70/100/130（+48%物理加成）点生命值（命中非英雄单位效果减半）",
+                    "cd": "12/11.5/11",
+                    "consume": "0",
+                    "img": "./hero/jineng_desc/橘右京大招.png"
+                }
+            ],
+            "history": "橘右京，是日本SNK游戏公司（现更名为snkplaymore）格斗游戏代表作《侍魂》中的主要人物之一。原型是英年早逝的剑术天才。剑术天才又身患肺痨的人物最典型的便是冲田总司",
+            "story": "如同在平静的水里投下石子，那一刹那，右京的心中涌起了继续生存的乐趣，他可以为自己所爱的少女献上世间美好的花朵,若是只有究极之花才能带回恋人的笑容……右京带上爱刀“自作·无铭”，踏上了京都之路"
+        },
+        {
+            "id": "3",
+            "name": "赵云",
+            "pf": "淬星耀世",
+            "headimg": "./hero/headimg/3.png",
+            "icon": "./hero/wzryicon/战士icon.png",
+            "cover": "./hero/wzry/阿赵.jpg",
+            "poster": [
+                {
+                    "name": "苍天翔龙",
+                    "url": "./hero/haibao/赵云海报.png"
+                },
+                {
+                    "name": "忍●炎影",
+                    "url": "./hero/haibao/赵云忍●炎影海报.png"
+                },
+                {
+                    "name": "未来纪元",
+                    "url": "./hero/haibao/赵云未来纪元海报.png"
+                },
+                {
+                    "name": "皇家上将",
+                    "url": "./hero/haibao/赵云皇家上将海报.png"
+                },
+                {
+                    "url": "./hero/haibao/赵云嘻哈天王海报.png",
+                    "name":"嘻哈天王"
+                },
+                {
+                    "url": "./hero/haibao/赵云白执事海报.png",
+                    "name":"白执事"
+                },
+                {
+                    "url": "./hero/haibao/赵云引擎之心海报.png",
+                    "name":"引擎之心"
+                },
+                {
+                    "url": "./hero/haibao/赵云龙胆海报.png",
+                    "name":"龙胆"
+                },
+                {
+                    "url": "./hero/haibao/赵云淬星耀世海报.png",
+                    "name":"淬星耀世"
+                },
+                {
+                    "url": "./hero/haibao/赵云百木心枪海报.png",
+                    "name":"百木心枪"
+                }
+            ],
+            "Header": [
+                {
+                    "url": "./hero/heroPFheader/苍天翔龙.png",
+                    "name":"苍天翔龙"
+                },
+                {
+                    "url": "./hero/heroPFheader/忍●炎影.png",
+                    "name":"忍●炎影"
+                },
+                {
+                    "url": "./hero/heroPFheader/未来纪元.png",
+                    "name":"未来纪元"
+                },
+                {
+                    "url": "./hero/heroPFheader/皇家上将.png",
+                    "name":"皇家上将"
+                },
+                {
+                    "url": "./hero/heroPFheader/嘻哈天王.png",
+                    "name":"嘻哈天王"
+                },
+                {
+                    "url": "./hero/heroPFheader/白执事.png",
+                    "name":"白执事"
+                },
+                {
+                    "url": "./hero/heroPFheader/引擎之心.png",
+                    "name":"引擎之心"
+                },
+                {
+                    "url": "./hero/heroPFheader/龙胆.png",
+                    "name":"龙胆"
+                },
+                {
+                    "url": "./hero/heroPFheader/淬星耀世.png",
+                    "name":"淬星耀世"
+                },
+                {
+                    "url": "./hero/heroPFheader/百木心枪.png",
+                    "name":"百木心枪"
+                }
+            ],
+            "title": "苍天翔龙",
+            "stature": "186cm",
+            "Position": "战士/刺客",
+            "Specialty": "突进",
+            "money": "充60点券送/588点券购买",
+            "viability": "50",
+            "Damage": "60",
+            "game": "Honor of Kings",
+            "Skill": "70",
+            "difficulty": "69",
+            "time": "2015-09-28",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+            },
+            "skins": [
+                {
+                    "name": "岱宗",
+                    "img": "./hero/wzry/岱宗.jpg",
+                    "head": null
+                },
+                {
+                    "name": "蓝屏警告",
+                    "img": "./hero/wzry/蓝屏警告.jpg",
+                    "head": null
+                },
+                {
+                    "name": "铁甲之心",
+                    "img": "./hero/wzry/铁甲之心.jpg",
+                    "head": null
+                },
+                {
+                    "name": "穷奇",
+                    "img": "./hero/wzry/穷奇.jpg",
+                    "head": null
+                },
+                {
+                    "name": "黄金武士",
+                    "img": "./hero/wzry/黄金武士.jpg",
+                    "head": null
+                }
+            ],
+            "skills": [
+                {
+                    "name": "龙鸣",
+                    "desc": "赵云每损失3%最大生命值，就会获得减少1%所受到的伤害",
+                    "cd": "0",
+                    "consume": "0",
+                    "img": "./hero/jineng_desc/赵云被动.png"
+                },
+                {
+                    "name": "惊雷之龙",
+                    "desc": "赵云执枪向指定方向冲锋，对路径上的敌人造成190/214/238/262/286/310（+100%物理加成）点物理伤害；冲锋后的下一次普通攻击会造成65/74/83/92/101/110（+135%物理加成）点物理伤害并将其减少25%移动速度，持续2秒",
+                    "cd": "7/6.4/5.8/5.2/4.6/4",
+                    "consume": "30",
+                    "img": "./hero/jineng_desc/赵云一技能.png"
+                },
+                {
+                    "name": "破云之龙",
+                    "desc": "赵云向指定方向连续4次刺出龙枪，对指定方向敌人每次造成100/115/130/145/160/175（+48%物理加成）点物理伤害；每次命中敌方后回复25/32/39/46/53/60（+12%物理加成）点生命值",
+                    "cd": "6/5.6/5.2/4.8/4.4/4",
+                    "consume": "40",
+                    "img": "./hero/jineng_desc/赵云二技能.png"
+                },
+                {
+                    "name": "天翔之龙",
+                    "desc": "赵云跃向空中，向目标区域发动雷霆一击，对范围内敌人造成350/450/550（+130%物理加成）点物理伤害，同时标记敌人为感电目标，对圈内敌人击飞1秒；赵云的普通攻击和技能伤害对感电目标会造成额外30/45/60（+13%物理加成）点法术伤害",
+                    "cd": "18/15/12",
+                    "consume": "75",
+                    "img": "./hero/jineng_desc/赵云大招.png"
+                }
+            ],
+            "history": "赵云是三国时的蜀汉名将。常山真定人，字子龙。东汉末年大乱，群雄并起之时，起兵归于公孙瓒。公孙瓒败亡，投奔刘备,出师未捷身先死，赵云一生都效忠于蜀国",
+            "story": "长久以来，佣兵辗转于不同主人之间，用血肉之躯为自己赢得一席之地。朝不保夕，危险，背叛和死亡都是家常便饭。今天的朋友可能是明日的敌人，过去的对手也能摇身一变成为如今的同盟,只能投入曹操的麾下，同时，仇恨的种子也在内心悄然增长。数年后，曹操的大军席卷了三分之地，却在长坂坡遭遇前所未有的重挫。惊天动地的雷霆涤荡着曹军引以自豪的名将。影子已死,赵子龙，参见！"
+        },
+        {
+            "id": "70",
+            "name": "百里玄策",
+            "pf": "白虎志",
+            "icon": "./hero/wzryicon/刺客icon.png",
+            "headimg": "./hero/headimg/70.png",
+            "cover": "./hero/wzry/阿策.jpg",
+            "poster": [
+                {
+                    "name": "嚣狂之镰",
+                    "url": "./hero/haibao/百里玄策海报.png"
+                },
+                {
+                    "name": "威尼斯狂欢",
+                    "url": "./hero/haibao/百里玄策威尼斯狂欢海报.png"
+                },
+                {
+                    "name": "白虎志",
+                    "url": "./hero/haibao/百里玄策白虎志海报.png"
+                },
+                {
+                    "name": "原初追逐者",
+                    "url": "./hero/haibao/百里玄策原初追逐者海报.png"
+                },
+                {
+                    "name": "热力回旋",
+                    "url": "./hero/haibao/百里玄策热力回旋海报.png"
+                }
+            ],
+            "Header": [
+                {
+                    "url": "./hero/heroPFheader/嚣狂之镰.png",
+                    "name":"嚣狂之镰"
+                },
+                {
+                    "url": "./hero/heroPFheader/威尼斯狂欢.png",
+                    "name":"威尼斯狂欢"
+                },
+                {
+                    "url": "./hero/heroPFheader/白虎志.png",
+                    "name":"白虎志"
+                },
+                {
+                    "url": "./hero/heroPFheader/原初追逐者.png",
+                    "name":"原初追逐者"
+                },
+                {
+                    "url": "./hero/heroPFheader/热力回旋.png",
+                    "name":"热力回旋"
+                }
+            ],
+            "title": "嚣狂之镰",
+            "stature": "171cm",
+            "Position": "刺客",
+            "Specialty": "突进/收割",
+            "money": "13888金币/588点券",
+            "game": "Honor of Kings",
+            "viability": "60",
+            "Damage": "80",
+            "Skill": "55",
+            "difficulty": "40",
+            "time": "2017-08-24",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+            },
+            "skins": [
+                {
+                    "name": "岱宗",
+                    "img": "./hero/wzry/岱宗.jpg",
+                    "head": null
+                },
+                {
+                    "name": "蓝屏警告",
+                    "img": "./hero/wzry/蓝屏警告.jpg",
+                    "head": null
+                },
+                {
+                    "name": "铁甲之心",
+                    "img": "./hero/wzry/铁甲之心.jpg",
+                    "head": null
+                },
+                {
+                    "name": "穷奇",
+                    "img": "./hero/wzry/穷奇.jpg",
+                    "head": null
+                },
+                {
+                    "name": "黄金武士",
+                    "img": "./hero/wzry/黄金武士.jpg",
+                    "head": null
+                }
+            ],
+            "skills": [
+                {
+                    "name": "狂热序章",
+                    "desc": "钩链近端造成80%物理加成的物理伤害，远端会在近端伤害的基础上额外造成40%物理加成的物理伤害；当钩镰远端命中敌人时降低移速，并且自身会获得短暂移速提升，该效果受神乎钩镰等级影响",
+                    "cd": "0",
+                    "consume": "0",
+                    "img": "./hero/jineng_desc/玄策被动.png"
+                },
+                {
+                    "name": "神乎钩镰",
+                    "desc": "玄策进行快速位移戏弄对手增加自身50点物理攻击力，钩镰链中时，玄策进行快速位移会将链中的目标向自己移动方向拉动一小段距离；当钩镰远端命中敌人时，敌人将会减少10/14/18/22/26/30%移动速度，同时自身增加10/14/18/22/26/30%移动速度，持续1秒",
+                    "cd": "5/4.8/4.6/4.4/4.2/4",
+                    "consume": "40",
+                    "img": "./hero/jineng_desc/玄策一技能.png"
+                },
+                {
+                    "name": "梦魇钩锁",
+                    "desc": "玄策舞动钩镰，蓄力后将钩镰向指定方向甩出，对路径上的敌人造成短暂定身控制并造成300/340/380/420/460/500(+140%额外物理加成)点物理伤害；钩镰将捆绑在收回过程中命中的第一个目标，同时对捆绑目标施加狩猎效果；如果捆绑住目标后再次释放该技能，玄策会将目标甩向身后并失去狩猎效果；蓄力越久，钩镰飞行距离越远，蓄力最多持续4秒",
+                    "cd": "10/9.6/9.2/8.8/8.4/8.0",
+                    "consume": "0",
+                    "img": "./hero/jineng_desc/玄策二技能.png"
+                },
+                {
+                    "name": "瞬镰闪",
+                    "desc": "玄策沿钩镰锁链瞬镰闪到对方身后，对路径上的敌人造成380/570/760（+200%额外物理加成）点物理伤害；移动过程中，玄策挥舞短镰，将会减少50%所受到的伤害；瞬镰闪只有在钩镰捆绑住目标时才能释放",
+                    "cd": "3/2.5/2 ",
+                    "consume": "80",
+                    "img": "./hero/jineng_desc/玄策大招.png"
+                }
+            ],
+            "history": "百里玄策是百里守约的弟弟。百里玄策和传统刺客不同，他身兼输出和控制两种角色，不仅拥有超高的伤害而且有着很强的粘人能力。历史人物原型为唐代曾出使印度并创有有“一人灭一国”佳绩的朝散大夫王玄策",
+            "story": "引领这名叫花木兰的敌人，面对师父的刹那，玄策就知道他们并非初次相会。显然，经历暗夜中的无数较量后，木兰选择了主动出击。她试图说服固执的昔日王族，彻底揪出幕后者,玄策，你想回去吗？”师父问。“那就跟她回去吧。不过，先让我试试看你是否会哭着鼻子逃回来,疯狂自少年血红的双目中褪却，锁链松弛着坠地。他眼睁睁目送着那苛刻养大自己的身影，消失在风沙中，仿佛一去不返,全场醒目担当！"
+        },
+        {
+            "id": "95",
+            "name": "马超",
+            "pf": "神威",
+            "icon": "./hero/wzryicon/战士icon.png",
+            "headimg": "./hero/headimg/95.png",
+            "cover": "./hero/wzry/阿马.png",
+            "poster": [
+                {
+                    "name": "冷晖之枪",
+                    "url": "./hero/haibao/马超海报.png"
+                },
+                {
+                    "name": "幸存者",
+                    "url": "./hero/haibao/马超幸存者海报.png"
+                },
+                {
+                    "name": "神威",
+                    "url": "./hero/haibao/马超神威海报.png"
+                },
+                {
+                    "name": "无双飞将",
+                    "url": "./hero/haibao/马超无双飞将海报.png"
+                }
+            ],
+            "title": "冷晖之枪",
+            "stature": "183cm",
+            "Position": "战士",
+            "Specialty": "突进/收割",
+            "money": "18888金币/688点券",
+            "game": "Honor of Kings",
+            "viability": "60",
+            "Damage": "80",
+            "Skill": "55",
+            "difficulty": "40",
+            "time": "2019-08-15",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+            },
+            "Header": [
+                {
+                    "url": "./hero/heroPFheader/冷晖之枪.png",
+                    "name":"冷晖之枪"
+                },
+                {
+                    "url": "./hero/heroPFheader/幸存者.png",
+                    "name":"幸存者"
+                },
+                {
+                    "url": "./hero/heroPFheader/神威.png",
+                    "name":"神威"
+                },
+                {
+                    "url": "./hero/heroPFheader/无双飞将.png",
+                    "name":"无双飞将"
+                }
+            ],
+            "skins": [
+                {
+                    "name": "岱宗",
+                    "img": "./hero/wzry/岱宗.jpg",
+                    "head": null
+                },
+                {
+                    "name": "蓝屏警告",
+                    "img": "./hero/wzry/蓝屏警告.jpg",
+                    "head": null
+                },
+                {
+                    "name": "铁甲之心",
+                    "img": "./hero/wzry/铁甲之心.jpg",
+                    "head": null
+                },
+                {
+                    "name": "穷奇",
+                    "img": "./hero/wzry/穷奇.jpg",
+                    "head": null
+                },
+                {
+                    "name": "黄金武士",
+                    "img": "./hero/wzry/黄金武士.jpg",
+                    "head": null
+                }
+            ],
+            "skills": [
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                }
+            ],
+            "history": "",
+            "story": ""
+        },
+        {
+            "id": "48",
+            "name": "孙悟空",
+            "pf": "至尊宝",
+            "icon": "./hero/wzryicon/刺客icon.png",
+            "headimg": "./hero/headimg/48.png",
+            "cover": "./hero/wzry/阿宝.jpg",
+            "poster": [
+                {
+                    "name": "齐天大圣",
+                    "url": "./hero/haibao/孙悟空海报.png"
+                },
+                {
+                    "name": "地狱火",
+                    "url": "./hero/haibao/孙悟空地狱火海报.png"
+                },
+                {
+                    "name": "西部大镖客",
+                    "url": "./hero/haibao/孙悟空西部大镖客海报.png"
+                },
+                {
+                    "name": "美猴王",
+                    "url": "./hero/haibao/孙悟空美猴王海报.png"
+                },
+                {
+                    "url": "./hero/haibao/孙悟空至尊宝海报.png",
+                    "name":"至尊宝"
+                },
+                {
+                    "url": "./hero/haibao/孙悟空全息碎影海报.png",
+                    "name":"全息碎影"
+                },
+                {
+                    "url": "./hero/haibao/孙悟空大圣娶亲海报.png",
+                    "name":"大圣娶亲"
+                },
+                {
+                    "url": "./hero/haibao/孙悟空零号·赤焰海报.png",
+                    "name":"零号·赤焰"
+                },
+                {
+                    "url": "./hero/haibao/孙悟空孙行者海报.png",
+                    "name":"孙行者"
+                },
+                {
+                    "url": "./hero/haibao/孙悟空齐天大圣海报.png",
+                    "name":"齐天大圣"
+                }
+            ],
+            "Header": [
+                {
+                    "url": "./hero/heroPFheader/齐天大圣.png",
+                    "name":"齐天大圣"
+                },
+                {
+                    "url": "./hero/heroPFheader/地狱火.png",
+                    "name":"地狱火"
+                },
+                {
+                    "url": "./hero/heroPFheader/西部大镖客.png",
+                    "name":"西部大镖客"
+                },
+                {
+                    "url": "./hero/heroPFheader/美猴王.png",
+                    "name":"美猴王"
+                },
+                {
+                    "url": "./hero/heroPFheader/至尊宝.png",
+                    "name":"至尊宝"
+                },
+                {
+                    "url": "./hero/heroPFheader/全息碎影.png",
+                    "name":"全息碎影"
+                },
+                {
+                    "url": "./hero/heroPFheader/大圣娶亲.png",
+                    "name":"大圣娶亲"
+                },
+                {
+                    "url": "./hero/heroPFheader/零号·赤焰.png",
+                    "name":"零号·赤焰"
+                },
+                {
+                    "url": "./hero/heroPFheader/孙行者.png",
+                    "name":"孙行者"
+                },
+                {
+                    "url": "./hero/heroPFheader/齐天大圣10.png",
+                    "name":"齐天大圣"
+                }
+            ],
+            "title": "齐天大圣",
+            "stature": "180cm",
+            "Position": "刺客/战士",
+            "Specialty": "突进/收割",
+            "money": "18888金币/888点券",
+            "game": "Honor of Kings",
+            "viability": "50",
+            "Damage": "80",
+            "Skill": "55",
+            "difficulty": "10",
+            "time": "2016-08-15",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+            },
+            "skins": [
+                {
+                    "name": "岱宗",
+                    "img": "./hero/wzry/岱宗.jpg",
+                    "head": null
+                },
+                {
+                    "name": "蓝屏警告",
+                    "img": "./hero/wzry/蓝屏警告.jpg",
+                    "head": null
+                },
+                {
+                    "name": "铁甲之心",
+                    "img": "./hero/wzry/铁甲之心.jpg",
+                    "head": null
+                },
+                {
+                    "name": "穷奇",
+                    "img": "./hero/wzry/穷奇.jpg",
+                    "head": null
+                },
+                {
+                    "name": "黄金武士",
+                    "img": "./hero/wzry/黄金武士.jpg",
+                    "head": null
+                }
+            ],
+            "skills": [
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                }
+            ],
+            "history": "",
+            "story": ""
+        },
+        {
+            "id": "36",
+            "name": "露娜",
+            "pf": "启示之音",
+            "icon": "./hero/wzryicon/刺客icon.png",
+            "headimg": "./hero/headimg/36.png",
+            "cover": "./hero/wzry/阿露.png",
+            "poster": [
+                {
+                    "name": "月光之女",
+                    "url": "./hero/haibao/露娜海报.png"
+                },
+                {
+                    "name": "哥特玫瑰",
+                    "url": "./hero/haibao/露娜哥特玫瑰海报.png"
+                },
+                {
+                    "name": "绯红之刃",
+                    "url": "./hero/haibao/露娜绯红之刃海报.png"
+                },
+                {
+                    "name": "紫霞仙子",
+                    "url": "./hero/haibao/露娜紫霞仙子海报.png"
+                },
+                {
+                    "name": "一生所爱",
+                    "url": "./hero/haibao/露娜一生所爱海报.png"
+                },
+                {
+                    "name": "瓷语鉴心",
+                    "url": "./hero/haibao/露娜瓷语鉴心海报.png"
+                },
+                {
+                    "name": "启示之音",
+                    "url": "./hero/haibao/露娜启示之音海报.png"
+                }
+            ],
+            "Header": [
+                {
+                    "url": "./hero/heroPFheader/月光之女.png",
+                    "name":"月光之女"
+                },
+                {
+                    "url": "./hero/heroPFheader/哥特玫瑰.png",
+                    "name":"哥特玫瑰"
+                },
+                {
+                    "url": "./hero/heroPFheader/绯红之刃.png",
+                    "name":"绯红之刃"
+                },
+                {
+                    "url": "./hero/heroPFheader/紫霞仙子.png",
+                    "name":"紫霞仙子"
+                },
+                {
+                    "url": "./hero/heroPFheader/一生所爱.png",
+                    "name":"一生所爱"
+                },
+                {
+                    "url": "./hero/heroPFheader/瓷语鉴心.png",
+                    "name":"瓷语鉴心"
+                },
+                {
+                    "url": "./hero/heroPFheader/启示之音.png",
+                    "name":"启示之音"
+                }
+            ],
+            "title": "月光之女",
+            "stature": "170cm",
+            "Position": "法师/战士",
+            "Specialty": "突进/收割",
+            "money": "13888金币/588点券",
+            "game": "Honor of Kings",
+            "viability": "99",
+            "Damage": "80",
+            "Skill": "55",
+            "difficulty": "40",
+            "time": "2019-08-15",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+            },
+            "skins": [
+                {
+                    "name": "岱宗",
+                    "img": "./hero/wzry/岱宗.jpg",
+                    "head": null
+                },
+                {
+                    "name": "蓝屏警告",
+                    "img": "./hero/wzry/蓝屏警告.jpg",
+                    "head": null
+                },
+                {
+                    "name": "铁甲之心",
+                    "img": "./hero/wzry/铁甲之心.jpg",
+                    "head": null
+                },
+                {
+                    "name": "穷奇",
+                    "img": "./hero/wzry/穷奇.jpg",
+                    "head": null
+                },
+                {
+                    "name": "黄金武士",
+                    "img": "./hero/wzry/黄金武士.jpg",
+                    "head": null
+                }
+            ],
+            "skills": [
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                }
+            ],
+            "history": "",
+            "story": ""
+        },
+        {
+            "id": "40",
+            "name": "王昭君",
+            "pf": "凤凰于飞",
+            "icon": "./hero/wzryicon/法师icon.png",
+            "headimg": "./hero/headimg/40.png",
+            "cover": "./hero/wzry/阿王.png",
+            "poster": [
+                {
+                    "name": "冰雪之华",
+                    "url": "./hero/haibao/王昭君海报.png"
+                },
+                {
+                    "name": "精灵公主",
+                    "url": "./hero/haibao/王昭君精灵公主海报.png"
+                },
+                {
+                    "name": "偶像歌手",
+                    "url": "./hero/haibao/王昭君偶像歌手海报.png"
+                },
+                {
+                    "name": "凤凰于飞",
+                    "url": "./hero/haibao/王昭君凤凰于飞海报.png"
+                },
+                {
+                    "name": "幻想奇妙夜",
+                    "url": "./hero/haibao/王昭君幻想奇妙夜海报.png"
+                },
+                {
+                    "name": "乞巧织情",
+                    "url": "./hero/haibao/王昭君乞巧织情海报.png"
+                },
+                {
+                    "name": "午后时光",
+                    "url": "./hero/haibao/王昭君午后时光海报.png"
+                },
+                {
+                    "name": "星穹之声",
+                    "url": "./hero/haibao/王昭君星穹之声海报.png"
+                }
+            ],
+            "Header": [
+                {
+                    "url": "./hero/heroPFheader/冰雪之华.png",
+                    "name":"冰雪之华"
+                },
+                {
+                    "url": "./hero/heroPFheader/精灵公主.png",
+                    "name":"精灵公主"
+                },
+                {
+                    "url": "./hero/heroPFheader/偶像歌手.png",
+                    "name":"偶像歌手"
+                },
+                {
+                    "url": "./hero/heroPFheader/凤凰于飞.png",
+                    "name":"凤凰于飞"
+                },
+                {
+                    "url": "./hero/heroPFheader/幻想奇妙夜.png",
+                    "name":"幻想奇妙夜"
+                },
+                {
+                    "url": "./hero/heroPFheader/乞巧织情.png",
+                    "name":"乞巧织情"
+                },
+                {
+                    "url": "./hero/heroPFheader/午后时光.png",
+                    "name":"午后时光"
+                },
+                {
+                    "url": "./hero/heroPFheader/星穹之声.png",
+                    "name":"星穹之声"
+                }
+            ],
+            "title": "冰雪之华",
+            "stature": "170cm",
+            "Position": "法师",
+            "Specialty": "团控",
+            "money": "8888金币/588点券",
+            "game": "Honor of Kings",
+            "viability": "59",
+            "Damage": "80",
+            "Skill": "55",
+            "difficulty": "40",
+            "time": "2019-08-15",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+            },
+            "skins": [
+                {
+                    "name": "岱宗",
+                    "img": "./hero/wzry/岱宗.jpg",
+                    "head": null
+                },
+                {
+                    "name": "蓝屏警告",
+                    "img": "./hero/wzry/蓝屏警告.jpg",
+                    "head": null
+                },
+                {
+                    "name": "铁甲之心",
+                    "img": "./hero/wzry/铁甲之心.jpg",
+                    "head": null
+                },
+                {
+                    "name": "穷奇",
+                    "img": "./hero/wzry/穷奇.jpg",
+                    "head": null
+                },
+                {
+                    "name": "黄金武士",
+                    "img": "./hero/wzry/黄金武士.jpg",
+                    "head": null
+                }
+            ],
+            "skills": [
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                }
+            ],
+            "history": "",
+            "story": ""
+        },
+        {
+            "id": "62",
+            "name": "诸葛亮",
+            "pf": "武陵仙君",
+            "icon": "./hero/wzryicon/法师icon.png",
+            "headimg": "./hero/headimg/62.png",
+            "cover": "./hero/wzry/阿诸.png",
+            "poster": [
+                {
+                    "name": "绝代智谋",
+                    "url": "./hero/haibao/诸葛亮海报.png"
+                },
+                {
+                    "name": "星航指挥官",
+                    "url": "./hero/haibao/诸葛亮星航指挥官海报.png"
+                },
+                {
+                    "name": "黄金分割率",
+                    "url": "./hero/haibao/诸葛亮黄金分割率海报.png"
+                },
+                {
+                    "name": "武陵仙君",
+                    "url": "./hero/haibao/诸葛亮武陵仙君海报.png"
+                },
+                {
+                    "name": "掌控之力",
+                    "url": "./hero/haibao/诸葛亮掌控之力海报.png"
+                },
+                {
+                    "name": "时雨天司",
+                    "url": "./hero/haibao/诸葛亮时雨天司海报.png"
+                },
+                {
+                    "name": "星域神启",
+                    "url": "./hero/haibao/诸葛亮星域神启海报.png"
+                }
+            ],
+            "Header": [
+                {
+                    "url": "./hero/heroPFheader/绝代智谋.png",
+                    "name":"绝代智谋"
+                },
+                {
+                    "url": "./hero/heroPFheader/星航指挥官.png",
+                    "name":"星航指挥官"
+                },
+                {
+                    "url": "./hero/heroPFheader/黄金分割率.png",
+                    "name":"黄金分割率"
+                },
+                {
+                    "url": "./hero/heroPFheader/武陵仙君.png",
+                    "name":"武陵仙君"
+                },
+                {
+                    "url": "./hero/heroPFheader/掌控之力.png",
+                    "name":"掌控之力"
+                },
+                {
+                    "url": "./hero/heroPFheader/时雨天司.png",
+                    "name":"时雨天司"
+                },
+                {
+                    "url": "./hero/heroPFheader/星域神启.png",
+                    "name":"星域神启"
+                }
+            ],
+            "title": "绝代智谋",
+            "stature": "183cm",
+            "Position": "法师",
+            "Specialty": "收割/远程消耗",
+            "money": "18888金币/688点券",
+            "game": "Honor of Kings",
+            "viability": "70",
+            "Damage": "80",
+            "Skill": "55",
+            "difficulty": "40",
+            "time": "2019-08-15",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+            },
+            "skins": [
+                {
+                    "name": "岱宗",
+                    "img": "./hero/wzry/岱宗.jpg",
+                    "head": null
+                },
+                {
+                    "name": "蓝屏警告",
+                    "img": "./hero/wzry/蓝屏警告.jpg",
+                    "head": null
+                },
+                {
+                    "name": "铁甲之心",
+                    "img": "./hero/wzry/铁甲之心.jpg",
+                    "head": null
+                },
+                {
+                    "name": "穷奇",
+                    "img": "./hero/wzry/穷奇.jpg",
+                    "head": null
+                },
+                {
+                    "name": "黄金武士",
+                    "img": "./hero/wzry/黄金武士.jpg",
+                    "head": null
+                }
+            ],
+            "skills": [
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                }
+            ],
+            "history": "",
+            "story": ""
+        },
+        {
+            "id": "99",
+            "name": "镜",
+            "pf": "炽阳神光",
+            "icon": "./hero/wzryicon/刺客icon.png",
+            "headimg": "./hero/headimg/99.png",
+            "cover": "./hero/wzry/阿镜.png",
+            "poster": [
+                {
+                    "name": "破镜之刃",
+                    "url": "./hero/haibao/镜海报.png"
+                },
+                {
+                    "name": "冰刃幻境",
+                    "url": "./hero/haibao/镜冰刃幻境海报.png"
+                },
+                {
+                    "name": "炽阳神光",
+                    "url": "./hero/haibao/镜炽阳神光海报.png"
+                },
+                {
+                    "name": "匿光追影者",
+                    "url": "./hero/haibao/镜匿光追影者海报.png"
+                },
+                {
+                    "name": "玫瑰异探",
+                    "url": "./hero/haibao/镜玫瑰异探海报.png"
+                }
+            ],
+            "Header": [
+                {
+                    "url": "./hero/heroPFheader/破镜之刃.png",
+                    "name":"破镜之刃"
+                },
+                {
+                    "url": "./hero/heroPFheader/冰刃幻境.png",
+                    "name":"冰刃幻境"
+                },
+                {
+                    "url": "./hero/heroPFheader/炽阳神光.png",
+                    "name":"炽阳神光"
+                },
+                {
+                    "url": "./hero/heroPFheader/匿光追影者.png",
+                    "name":"匿光追影者"
+                },
+                {
+                    "url": "./hero/heroPFheader/玫瑰异探.png",
+                    "name":"玫瑰异探"
+                }
+            ],
+            "title": "破镜之刃",
+            "stature": "170cm",
+            "Position": "刺客",
+            "Specialty": "收割/爆发",
+            "money": "18888金币/688点券",
+            "game": "Honor of Kings",
+            "viability": "80",
+            "Damage": "80",
+            "Skill": "65",
+            "difficulty": "40",
+            "time": "2020-08-15",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+            },
+            "skins": [
+                {
+                    "name": "岱宗",
+                    "img": "./hero/wzry/岱宗.jpg",
+                    "head": null
+                },
+                {
+                    "name": "蓝屏警告",
+                    "img": "./hero/wzry/蓝屏警告.jpg",
+                    "head": null
+                },
+                {
+                    "name": "铁甲之心",
+                    "img": "./hero/wzry/铁甲之心.jpg",
+                    "head": null
+                },
+                {
+                    "name": "穷奇",
+                    "img": "./hero/wzry/穷奇.jpg",
+                    "head": null
+                },
+                {
+                    "name": "黄金武士",
+                    "img": "./hero/wzry/黄金武士.jpg",
+                    "head": null
+                }
+            ],
+            "skills": [
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                }
+            ],
+            "history": "",
+            "story": ""
+        },
+        {
+            "id": "68",
+            "name": "铠",
+            "pf": "曙光守护者",
+            "icon": "./hero/wzryicon/战士icon.png",
+            "headimg": "./hero/headimg/68.png",
+            "cover": "./hero/wzry/阿铠.png",
+            "poster": [
+                {
+                    "name": "破灭刃锋",
+                    "url": "./hero/haibao/铠海报.png"
+                },
+                {
+                    "name": "龙域领主",
+                    "url": "./hero/haibao/铠龙域领主海报.png"
+                },
+                {
+                    "name": "曙光守护者",
+                    "url": "./hero/haibao/铠曙光守护者海报.png"
+                },
+                {
+                    "name": "青龙志",
+                    "url": "./hero/haibao/铠青龙志海报.png"
+                },
+                {
+                    "name": "绛天战甲",
+                    "url": "./hero/haibao/铠绛天战甲海报.png"
+                },
+                {
+                    "name": "银白咏叹调",
+                    "url": "./hero/haibao/铠银白咏叹调海报.png"
+                }
+            ],
+            "Header": [
+                {
+                    "url": "./hero/heroPFheader/破灭刃锋.png",
+                    "name":"破灭刃锋"
+                },
+                {
+                    "url": "./hero/heroPFheader/龙域领主.png",
+                    "name":"龙域领主"
+                },
+                {
+                    "url": "./hero/heroPFheader/曙光守护者.png",
+                    "name":"曙光守护者"
+                },
+                {
+                    "url": "./hero/heroPFheader/青龙志.png",
+                    "name":"青龙志"
+                },
+                {
+                    "url": "./hero/heroPFheader/绛天战甲.png",
+                    "name":"绛天战甲"
+                },
+                {
+                    "url": "./hero/heroPFheader/银白咏叹调.png",
+                    "name":"银白咏叹调"
+                }
+            ],
+            "title": "破灭刃锋",
+            "stature": "188cm",
+            "Position": "战士/坦克",
+            "Specialty": "收割/爆发",
+            "money": "13888金币/588点券",
+            "game": "Honor of Kings",
+            "viability": "30",
+            "Damage": "40",
+            "Skill": "65%",
+            "difficulty": "40",
+            "time": "2015-08-15",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+            },
+            "skins": [
+                {
+                    "name": "岱宗",
+                    "img": "./hero/wzry/岱宗.jpg",
+                    "head": null
+                },
+                {
+                    "name": "蓝屏警告",
+                    "img": "./hero/wzry/蓝屏警告.jpg",
+                    "head": null
+                },
+                {
+                    "name": "铁甲之心",
+                    "img": "./hero/wzry/铁甲之心.jpg",
+                    "head": null
+                },
+                {
+                    "name": "穷奇",
+                    "img": "./hero/wzry/穷奇.jpg",
+                    "head": null
+                },
+                {
+                    "name": "黄金武士",
+                    "img": "./hero/wzry/黄金武士.jpg",
+                    "head": null
+                }
+            ],
+            "skills": [
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                }
+            ],
+            "history": "",
+            "story": ""
+        },
+        {
+            "id": "33",
+            "name": "貂蝉",
+            "pf": "仲夏夜之梦",
+            "icon": "./hero/wzryicon/法师icon.png",
+            "headimg": "./hero/headimg/33.png",
+            "cover": "./hero/wzry/阿貂.png",
+            "poster": [
+                {
+                    "name": "绝世舞姬",
+                    "url": "./hero/haibao/貂蝉海报.png"
+                },
+                {
+                    "name": "异域舞娘",
+                    "url": "./hero/haibao/貂蝉异域舞娘海报.png"
+                },
+                {
+                    "name": "圣诞恋歌",
+                    "url": "./hero/haibao/貂蝉圣诞恋歌海报.png"
+                },
+                {
+                    "name": "仲夏夜之梦",
+                    "url": "./hero/haibao/貂蝉仲夏夜之梦海报.png"
+                },
+                {
+                    "url": "./hero/haibao/貂蝉逐梦之音海报.png",
+                    "name":"逐梦之音"
+                },
+                {
+                    "url": "./hero/haibao/貂蝉猫影幻舞海报.png",
+                    "name":"猫影幻舞"
+                },
+                {
+                    "url": "./hero/haibao/貂蝉遇见胡旋海报.png",
+                    "name":"遇见胡旋"
+                },
+                {
+                    "url": "./hero/haibao/貂蝉唤灵魅影海报.png",
+                    "name":"唤灵魅影"
+                },
+                {
+                    "url": "./hero/haibao/貂蝉幻阙歌海报.png",
+                    "name":"幻阙歌"
+                }
+            ],
+            "Header": [
+                {
+                    "url": "./hero/heroPFheader/绝世舞姬.png",
+                    "name":"绝世舞姬"
+                },
+                {
+                    "url": "./hero/heroPFheader/异域舞娘.png",
+                    "name":"异域舞娘"
+                },
+                {
+                    "url": "./hero/heroPFheader/圣诞恋歌.png",
+                    "name":"圣诞恋歌"
+                },
+                {
+                    "url": "./hero/heroPFheader/仲夏夜之梦.png",
+                    "name":"仲夏夜之梦"
+                },
+                {
+                    "url": "./hero/heroPFheader/逐梦之音.png",
+                    "name":"逐梦之音"
+                },
+                {
+                    "url": "./hero/heroPFheader/猫影幻舞.png",
+                    "name":"猫影幻舞"
+                },
+                {
+                    "url": "./hero/heroPFheader/遇见胡旋.png",
+                    "name":"遇见胡旋"
+                },
+                {
+                    "url": "./hero/heroPFheader/唤灵魅影.png",
+                    "name":"唤灵魅影"
+                },
+                {
+                    "url": "./hero/heroPFheader/幻阙歌.png",
+                    "name":"幻阙歌"
+                }
+            ],
+            "title": "绝世舞姬",
+            "stature": "165cm",
+            "Position": "法师/刺客",
+            "Specialty": "突进",
+            "money": "13888金币/588点券",
+            "game": "Honor of Kings",
+            "viability": "30",
+            "Damage": "40",
+            "Skill": "65",
+            "difficulty": "40",
+            "time": "2015-12-15",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+            },
+            "skins": [
+                {
+                    "name": "岱宗",
+                    "img": "./hero/wzry/岱宗.jpg",
+                    "head": null
+                },
+                {
+                    "name": "蓝屏警告",
+                    "img": "./hero/wzry/蓝屏警告.jpg",
+                    "head": null
+                },
+                {
+                    "name": "铁甲之心",
+                    "img": "./hero/wzry/铁甲之心.jpg",
+                    "head": null
+                },
+                {
+                    "name": "穷奇",
+                    "img": "./hero/wzry/穷奇.jpg",
+                    "head": null
+                },
+                {
+                    "name": "黄金武士",
+                    "img": "./hero/wzry/黄金武士.jpg",
+                    "head": null
+                }
+            ],
+            "skills": [
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                }
+            ],
+            "history": "",
+            "story": ""
+        },
+        {
+            "id": "103",
+            "name": "澜",
+            "pf": "赏金猎手",
+            "icon": "./hero/wzryicon/刺客icon.png",
+            "headimg": "./hero/headimg/103.png",
+            "cover": "./hero/wzry/阿澜.png",
+            "poster": [
+                {
+                    "name": "鲨之猎刃",
+                    "url": "./hero/haibao/澜海报.png"
+                },
+                {
+                    "name": "孤猎",
+                    "url": "./hero/haibao/澜孤猎海报.png"
+                },
+                {
+                    "name": "赏金猎手",
+                    "url": "./hero/haibao/澜赏金猎手海报.png"
+                }
+            ],
+            "Header": [
+                {
+                    "url": "./hero/heroPFheader/鲨之猎刃.png",
+                    "name":"鲨之猎刃"
+                },
+                {
+                    "url": "./hero/heroPFheader/孤猎.png",
+                    "name":"孤猎"
+                },
+                {
+                    "url": "./hero/heroPFheader/赏金猎手.png",
+                    "name":"赏金猎手"
+                }
+            ],
+            "title": "鲨之猎刃",
+            "stature": "180cm",
+            "Position": "游斗刺客",
+            "Specialty": "突进/收割",
+            "money": "18888金币/688点券",
+            "game": "Honor of Kings",
+            "viability": "50",
+            "Damage": "55",
+            "Skill": "35",
+            "difficulty": "40",
+            "time": "2020-12-08",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+            },
+            "skins": [
+                {
+                    "name": "岱宗",
+                    "img": "./hero/wzry/岱宗.jpg",
+                    "head": null
+                },
+                {
+                    "name": "蓝屏警告",
+                    "img": "./hero/wzry/蓝屏警告.jpg",
+                    "head": null
+                },
+                {
+                    "name": "铁甲之心",
+                    "img": "./hero/wzry/铁甲之心.jpg",
+                    "head": null
+                },
+                {
+                    "name": "穷奇",
+                    "img": "./hero/wzry/穷奇.jpg",
+                    "head": null
+                },
+                {
+                    "name": "黄金武士",
+                    "img": "./hero/wzry/黄金武士.jpg",
+                    "head": null
+                }
+            ],
+            "skills": [
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                }
+            ],
+            "history": "",
+            "story": ""
+        },
+        {
+            "id": "16",
+            "name": "白起",
+            "pf": "星夜王子",
+            "icon": "./hero/wzryicon/坦克icon.png",
+            "headimg": "./hero/headimg/16.png",
+            "cover": "./hero/wzry/阿白.png",
+            "poster": [
+                {
+                    "name": "最终兵器",
+                    "url": "./hero/haibao/白起海报.png"
+                },
+                {
+                    "name": "白色死神",
+                    "url": "./hero/haibao/白起白色死神海报.png"
+                },
+                {
+                    "name": "狰",
+                    "url": "./hero/haibao/白起狰海报.png"
+                },
+                {
+                    "name": "星夜王子",
+                    "url": "./hero/haibao/白起星夜王子海报.png"
+                },
+                {
+                    "name": "夜都怪侠",
+                    "url": "./hero/haibao/白起夜都怪侠海报.png"
+                },
+                {
+                    "name": "乐园追猎者",
+                    "url": "./hero/haibao/白起乐园追猎者海报.png"
+                }
+            ],
+            "Header": [
+                {
+                    "url": "./hero/heroPFheader/最终兵器.png",
+                    "name":"最终兵器"
+                },
+                {
+                    "url": "./hero/heroPFheader/白色死神.png",
+                    "name":"白色死神"
+                },
+                {
+                    "url": "./hero/heroPFheader/狰.png",
+                    "name":"狰"
+                },
+                {
+                    "url": "./hero/heroPFheader/星夜王子.png",
+                    "name":"星夜王子"
+                },
+                {
+                    "url": "./hero/heroPFheader/夜都怪侠.png",
+                    "name":"夜都怪侠"
+                },
+                {
+                    "url": "./hero/heroPFheader/乐园追猎者.png",
+                    "name":"乐园追猎者"
+                }
+            ],
+            "title": "最终兵器",
+            "stature": "193cm",
+            "Position": "坦克",
+            "Specialty": "团控",
+            "money": "13888金币/588点券",
+            "game": "Honor of Kings",
+            "viability": "66",
+            "Damage": "88",
+            "Skill": "55",
+            "difficulty": "40",
+            "time": "2014-12-08",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+            },
+            "skins": [
+                {
+                    "name": "岱宗",
+                    "img": "./hero/wzry/岱宗.jpg",
+                    "head": null
+                },
+                {
+                    "name": "蓝屏警告",
+                    "img": "./hero/wzry/蓝屏警告.jpg",
+                    "head": null
+                },
+                {
+                    "name": "铁甲之心",
+                    "img": "./hero/wzry/铁甲之心.jpg",
+                    "head": null
+                },
+                {
+                    "name": "穷奇",
+                    "img": "./hero/wzry/穷奇.jpg",
+                    "head": null
+                },
+                {
+                    "name": "黄金武士",
+                    "img": "./hero/wzry/黄金武士.jpg",
+                    "head": null
+                }
+            ],
+            "skills": [
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                }
+            ],
+            "history": "",
+            "story": ""
+        },
+        {
+            "id": "110",
+            "name": "赵怀真",
+            "pf": "自在之心",
+            "icon": "./hero/wzryicon/战士icon.png",
+            "headimg": "./hero/headimg/110.png",
+            "cover": "./hero/wzry/阿真.png",
+            "poster": [
+                {
+                    "name": "自在之心",
+                    "url": "./hero/haibao/赵怀真海报.png"
+                },
+                {
+                    "name": "太极少年",
+                    "url": "./hero/haibao/赵怀真太极少年海报.png"
+                }
+            ],
+            "Header": [
+                {
+                    "url": "./hero/heroPFheader/自在之心.png",
+                    "name":"自在之心"
+                },
+                {
+                    "url": "./hero/heroPFheader/太极少年.png",
+                    "name":"太极少年"
+                }
+            ],
+            "title": "自在之心",
+            "stature": "178cm",
+            "Position": "战士",
+            "Specialty": "团控",
+            "money": "13888金币/588点券",
+            "game": "Honor of Kings",
+            "viability": "66",
+            "Damage": "88",
+            "Skill": "55",
+            "difficulty": "40",
+            "time": "2014-12-08",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+            },
+            "skins": [
+                {
+                    "name": "岱宗",
+                    "img": "./hero/wzry/岱宗.jpg",
+                    "head": null
+                },
+                {
+                    "name": "蓝屏警告",
+                    "img": "./hero/wzry/蓝屏警告.jpg",
+                    "head": null
+                },
+                {
+                    "name": "铁甲之心",
+                    "img": "./hero/wzry/铁甲之心.jpg",
+                    "head": null
+                },
+                {
+                    "name": "穷奇",
+                    "img": "./hero/wzry/穷奇.jpg",
+                    "head": null
+                },
+                {
+                    "name": "黄金武士",
+                    "img": "./hero/wzry/黄金武士.jpg",
+                    "head": null
+                }
+            ],
+            "skills": [
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                },
+                {
+                    "name": "",
+                    "desc": "",
+                    "cd": "",
+                    "consume": "",
+                    "img": ""
+                }
+            ],
+            "history": "",
+            "story": ""
+        }
+    ]
+}

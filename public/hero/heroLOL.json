@@ -1,0 +1,436 @@
+{
+    "heroLOL":[
+        {
+            "id": "1",
+            "name": "疾风剑豪",
+            "headimg": "./hero/headLOLimg/亚索.jpg",
+            "cover":"./hero/headLOLimg/黑夜使者.jpg",
+            "poster":"./hero/haibaoLOL/亚索海报.png",
+            "title":"亚索",
+            "game":"Leag of Legend",
+            "stature":"180cm",
+            "Position":"战士、刺客/中单",
+            "Specialty":"爆发AD刺客",
+            "money":"4500点券/6300蓝色精粹",
+            "viability":"55",
+            "Damage":"60",
+            "Skill":"70",
+            "difficulty":"92",
+            "time":"2013-09-28",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+              },
+            "skins":[
+                {
+                  
+                },
+                {
+                    
+                },
+                {
+                    
+                },
+                {
+                   
+                },
+                {
+                    
+                }
+            ],
+            "skills":[
+                {
+                    "name": "",
+                    "desc":"",
+                    "cd":"",
+                    "consume":"",
+                    "img":""
+                },
+                {
+                    "name": "",
+                    "desc":"",
+                    "cd":"",
+                    "consume":"",
+                    "img":""
+                },
+                {
+                    "name": "",
+                    "desc":"",
+                    "cd":"",
+                    "consume":"",
+                    "img":""
+                },
+                {
+                    "name": "",
+                    "desc":"",
+                    "cd":"",
+                    "consume":"",
+                    "img":""
+                }
+            ],
+            "history":"",
+            "story":""
+        },
+        {
+            "id": "2",
+            "name": "德莱厄斯",
+            "headimg": "./hero/headLOLimg/诺手.jpg",
+            "cover":"./hero/headLOLimg/神王.jpg",
+            "game":"Leag of Legend",
+            "poster":"./hero/haibaoLOL/诺手海报.png",
+            "title":"诺克萨斯之手",
+            "stature":"185cm",
+            "Position":"战士、坦克/上单",
+            "Specialty":"单挑能力强",
+            "money":"4500点券/6300蓝色精粹",
+            "viability":"90",
+            "Damage":"88",
+            "Skill":"100",
+            "difficulty":"30",
+            "time":"2015-11-02",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+              },
+            "skins":[
+                {
+                  
+                },
+                {
+                    
+                },
+                {
+                    
+                },
+                {
+                   
+                },
+                {
+                    
+                }
+            ],
+            "skills":[
+                {
+                    "name": "",
+                    "desc":"",
+                    "cd":"",
+                    "consume":"",
+                    "img":""
+                },
+                {
+                    "name": "",
+                    "desc":"",
+                    "cd":"",
+                    "consume":"",
+                    "img":""
+                },
+                {
+                    "name": "",
+                    "desc":"",
+                    "cd":"",
+                    "consume":"",
+                    "img":""
+                },
+                {
+                    "name": "",
+                    "desc":"",
+                    "cd":"",
+                    "consume":"",
+                    "img":""
+                }
+            ],
+            "history":"",
+            "story":""
+        },
+        {
+            "id": "3",
+            "name": "奥瑞利安",
+            "headimg": "./hero/headLOLimg/龙王.jpg",
+            "cover":"./hero/headLOLimg/龙王圣龙.jpg",
+            "poster":"./hero/haibaoLOL/龙王海报.png",
+            "title":"铸星龙王",
+            "game":"Leag of Legend",
+            "stature":"与天同高",
+            "Position":"法师/中单",
+            "Specialty":"控制技能",
+            "money":"3500点券/4800蓝色精粹",
+            "viability":"50",
+            "Damage":"10",
+            "Skill":"79",
+            "difficulty":"60",
+            "time":"2016-05-06",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+              },
+            "skins":[
+                {
+                  
+                },
+                {
+                    
+                },
+                {
+                    
+                },
+                {
+                   
+                },
+                {
+                    
+                }
+            ],
+            "skills":[
+                {
+                    "name": "",
+                    "desc":"",
+                    "cd":"",
+                    "consume":"",
+                    "img":""
+                },
+                {
+                    "name": "",
+                    "desc":"",
+                    "cd":"",
+                    "consume":"",
+                    "img":""
+                },
+                {
+                    "name": "",
+                    "desc":"",
+                    "cd":"",
+                    "consume":"",
+                    "img":""
+                },
+                {
+                    "name": "",
+                    "desc":"",
+                    "cd":"",
+                    "consume":"",
+                    "img":""
+                }
+            ],
+            "history":"",
+            "story":""
+        },
+        {
+            "id": "4",
+            "name": "阿卡丽",
+            "headimg": "./hero/headLOLimg/阿卡丽.jpg",
+            "cover":"./hero/headLOLimg/阿卡丽KDA.jpg",
+            "poster":"./hero/haibaoLOL/阿卡丽海报.png",
+            "game":"Leag of Legend",
+            "title":"离群之刺",
+            "stature":"170cm",
+            "Position":"法师、刺客/中单",
+            "Specialty":"灵活的技能",
+            "money":"2500点券/3150蓝色精萃",
+            "viability":"70",
+            "Damage":"75",
+            "Skill":"90",
+            "difficulty":"85",
+            "time":"2016-09-25",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+              },
+            "skins":[
+                {
+                  
+                },
+                {
+                    
+                },
+                {
+                    
+                },
+                {
+                   
+                },
+                {
+                    
+                }
+            ],
+            "skills":[
+                {
+                    "name": "",
+                    "desc":"",
+                    "cd":"",
+                    "consume":"",
+                    "img":""
+                },
+                {
+                    "name": "",
+                    "desc":"",
+                    "cd":"",
+                    "consume":"",
+                    "img":""
+                },
+                {
+                    "name": "",
+                    "desc":"",
+                    "cd":"",
+                    "consume":"",
+                    "img":""
+                },
+                {
+                    "name": "",
+                    "desc":"",
+                    "cd":"",
+                    "consume":"",
+                    "img":""
+                }
+            ],
+            "history":"",
+            "story":""
+        },
+        {
+            "id": "5",
+            "name": "易",
+            "headimg": "./hero/headLOLimg/剑圣.jpg",
+            "cover":"./hero/headLOLimg/无极剑圣.jpg",
+            "poster":"./hero/haibaoLOL/剑圣海报.png",
+            "title":"无极剑圣",
+            "stature":"180cm",
+            "game":"Leag of Legend",
+            "Position":"刺客、战士/打野",
+            "Specialty":"持续输出/爆发",
+            "money":"1000点券/450蓝色精粹",
+            "viability":"60",
+            "Damage":"90",
+            "Skill":"50",
+            "difficulty":"10",
+            "time":"2018-09-24",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+              },
+            "skins":[
+                {
+                  
+                },
+                {
+                    
+                },
+                {
+                    
+                },
+                {
+                   
+                },
+                {
+                    
+                }
+            ],
+            "skills":[
+                {
+                    "name": "",
+                    "desc":"",
+                    "cd":"",
+                    "consume":"",
+                    "img":""
+                },
+                {
+                    "name": "",
+                    "desc":"",
+                    "cd":"",
+                    "consume":"",
+                    "img":""
+                },
+                {
+                    "name": "",
+                    "desc":"",
+                    "cd":"",
+                    "consume":"",
+                    "img":""
+                },
+                {
+                    "name": "",
+                    "desc":"",
+                    "cd":"",
+                    "consume":"",
+                    "img":""
+                }
+            ],
+            "history":"",
+            "story":""
+        },
+        {
+            "id": "6",
+            "name": "黛安娜",
+            "headimg": "./hero/headLOLimg/皎月头像.png",
+            "cover":"./hero/headLOLimg/皎月女神.png",
+            "poster":"./hero/haibaoLOL/皎月女神海报.png",
+            "title":"皎月女神",
+            "stature":"175cm",
+            "game":"Leag of Legend",
+            "Position":"战士/法师",
+            "Specialty":"法伤/爆发",
+            "money":"4500点券/6300蓝色精粹",
+            "viability":"80",
+            "Damage":"60",
+            "Skill":"75",
+            "difficulty":"65",
+            "time":"2016-04-01",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+              },
+            "skins":[
+                {
+                  
+                },
+                {
+                    
+                },
+                {
+                    
+                },
+                {
+                   
+                },
+                {
+                    
+                }
+            ],
+            "skills":[
+                {
+                    "name": "",
+                    "desc":"",
+                    "cd":"",
+                    "consume":"",
+                    "img":""
+                },
+                {
+                    "name": "",
+                    "desc":"",
+                    "cd":"",
+                    "consume":"",
+                    "img":""
+                },
+                {
+                    "name": "",
+                    "desc":"",
+                    "cd":"",
+                    "consume":"",
+                    "img":""
+                },
+                {
+                    "name": "",
+                    "desc":"",
+                    "cd":"",
+                    "consume":"",
+                    "img":""
+                }
+            ],
+            "history":"",
+            "story":""
+        }
+    ]
+}

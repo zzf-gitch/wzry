@@ -1,0 +1,22 @@
+{
+    "list": [{
+            "index": "/zhuye",
+            "name": "主页",
+            "icon": "\ue60f"
+        },
+        {
+            "index": "/pf",
+            "name": "皮肤",
+            "icon": "\ue654",
+            "children": [{
+                    "index": "/pfzs",
+                    "title": "皮肤展示"
+                },
+                {
+                    "index": "/pftj",
+                    "title": "皮肤图鉴"
+                }
+            ]
+        }
+    ]
+}

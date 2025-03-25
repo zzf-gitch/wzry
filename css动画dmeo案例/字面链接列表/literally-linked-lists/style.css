@@ -1,0 +1,122 @@
+:root {
+	--theme1: #5f33e1;
+	--theme2: #ffe5a4;
+	--theme3: #f778ba;
+	--theme4: #ebe4ff;
+	--theme5: #f3f1f8;
+	--theme6: #ffffff;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	background: rgb(95, 51, 225);
+	background: linear-gradient(
+		319deg,
+		rgba(95, 51, 225, 0.7) 22%,
+		rgba(247, 120, 186, 0.7) 61%,
+		rgba(235, 228, 255, 0.7) 100%
+	);
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+}
+
+h2 {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 1.25rem;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+ol {
+	counter-reset: my-awesome-counter;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ol li {
+	background-color: var(--theme5);
+	border-radius: 20px;
+	counter-increment: my-awesome-counter;
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 0.8rem;
+	margin-bottom: 1rem;
+	outline-offset: -5px;
+	padding: 20px;
+	padding-left: 70px;
+	position: relative;
+	top: 0;
+	transition: all linear 0.3s;
+	width: 100%;
+}
+
+ol li::first-line {
+	font-family: "Roboto Slab", serif;
+}
+
+ol li::before {
+	--size: 30px;
+	bottom: 0;
+	content: "0" counter(my-awesome-counter);
+	font-family: "Roboto Mono", monospace;
+	font-size: 2rem;
+	height: var(--size);
+	left: 20px;
+	line-height: var(--size);
+	margin: auto;
+	margin-right: 0.5rem;
+	position: absolute;
+	top: 0;
+	width: var(--size);
+}
+
+.lists {
+	align-items: center;
+	align-content: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: no-wrap;
+	height: 100%;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.list-container {
+	background-color: var(--theme6);
+	border-radius: 20px;
+	box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	width: 250px;
+}
+
+.raise-1 {
+	background-color: var(--theme1);
+	box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+	color: var(--theme6);
+	top: -2px;
+}
+
+.raise-2 {
+	background-color: var(--theme2);
+	box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+	color: #000;
+	top: -2px;
+}
+
+.raise-3 {
+	background-color: var(--theme3);
+	box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+	color: var(--theme6);
+	top: -2px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!--    <meta name="revised" content="v1.0.0">-->
+	<link rel="icon" href="<%= BASE_URL %>wzry.ico">
+	<!-- <script type="text/javascript" src="//api.map.baidu.com/api?type=webgl&v=1.0&ak=dsLzkI0syN4mjOwVfVmc7TFUkMNTjWYR"></script> -->
+	<!-- <script type="text/javascript" src="http://api.map.baidu.com/gets...;amp;ak=ZUONbpqGBsYGXNIYHicvbAbM&amp;services=&amp;t=20180629105706"></script> -->
+	<!-- <script src="../src/page/baidu/geoMap.json" type="text/javascript" charset="utf-8"></script> -->
+	<!-- <script type="text/javascript" src="http://api.map.baidu.com/api?key=&amp;v=1.1&services=true"></script> -->
+	<title id="public_title">王者荣耀后台管理系统</title>
+	<style type="text/css">
+		/* 自定义滚动条样式 */
+		::-webkit-scrollbar {
+			/* 滚动条整体样式 */
+			width: 6px;
+			/* 高宽分别对应横竖滚动条的尺寸 */
+			height: 1px;
+			display: none;
+		}
+
+		::-webkit-scrollbar-thumb {
+			/* 滚动条里面小方块 */
+			border-radius: 6px;
+			box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+			background: #25A4BB;
+		}
+
+		::-webkit-scrollbar-track {
+			/* 滚动条里面轨道 */
+			box-shadow: inst 0 0 5px rgba(0, 0, 0, 0.2);
+			border-radius: 3px;
+			background: #DCDFE6;
+		}
+
+		/* 以下代码通过滤镜将页面中所有的彩色去掉，适用于各种纪念日 */
+		/* html {
+			filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+			filter: grayscale(100%);
+			-webkit-filter: grayscale(100%);
+			-moz-filter: grayscale(100%);
+			-ms-filter: grayscale(100%);
+			-o-filter: grayscale(100%);
+			filter: gray;
+			-webkit-filter: grayscale(1);
+		} */
+		/* 去彩色代码结束 */
+
+	</style>
+
+</head>
+
+<body>
+	<noscript>
+		<strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+			Please enable it to continue.</strong>
+	</noscript>
+
+	<div id="app"></div>
+	<!-- built files will be auto injected -->
+	<script src="./sakura/sakura.js"></script>
+</body>
+
+</html>

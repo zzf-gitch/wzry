@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Bad Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/font) format('woff2');
+}
+@font-face {
+  font-family: 'Gruppo';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/font1) format('woff2');
+}
+@font-face {
+  font-family: 'Kumar One Outline';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/font2) format('woff2');
+}
+@font-face {
+  font-family: 'League Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/font3) format('woff2');
+}
+@font-face {
+  font-family: 'Londrina Outline';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/font4) format('woff2');
+}
+@font-face {
+  font-family: 'Monoton';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/font5) format('woff2');
+}
+@font-face {
+  font-family: 'Sriracha';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/font6) format('woff2');
+}
+@font-face {
+  font-family: 'Yellowtail';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/font7) format('woff2');
+}

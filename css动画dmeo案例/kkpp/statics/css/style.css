@@ -1,0 +1,32 @@
+*{margin: 0;padding: 0;border: 0;list-style: none;text-decoration: none;color: inherit;font-weight: normal;font-family: "微软雅黑";box-sizing: border-box;font-style: normal;outline: none;-webkit-tap-highlight-color: transparent;}
+body{width: 100%;overflow-x: hidden;background: #ffffff;color: #ffffff;}
+img{vertical-align: middle;max-width: 100%;}
+.container{width: 100%;padding: 0 .4rem;}
+/*顶部*/
+.top-bar{display: flex;justify-content: center;align-items: center;color: #333333;width: 100%;height: .88rem;position: relative;}
+.top-bar i{display: inline-block;width: .5rem;height: .88rem;background: url(../images/icon-back.png) left center no-repeat;background-size: .17rem .29rem;position: absolute;left: 0;}
+.top-bar span{font-size: .36rem;}
+/* 卡包列表 */
+.card-list{padding: .28rem 0;width: 100%;}
+.card-list .item{width: 6.7rem;height: 3.47rem;margin-bottom: .25rem;padding: .28rem .3rem;position: relative;border-radius: .3rem;}
+.card-list .item.blue{background: url(../images/bg-blue.png) center center no-repeat;background-size: 100%;}
+.card-list .item.purple{background: url(../images/bg-purple.png) center center no-repeat;background-size: 100%;}
+.card-list .item.red{background: url(../images/bg-red.png) center center no-repeat;background-size: 100%;}
+.card-list .item .name{display: flex;justify-content: space-between;align-items: center;}
+.card-list .item .name h3{font-size: .34rem;letter-spacing: .02rem;}
+.card-list .item .name span{font-size: .28rem;display: inline-block;background: rgba(255,255,255,.2);padding: 0 .2rem;height: .4rem;line-height: .4rem;border-radius: .4rem;}
+.card-list .item .time{display: flex;justify-content: center;align-items: baseline;padding-top: .4rem;position: relative;}
+.card-list .item .time i{font-size: .24rem;letter-spacing: .02rem;}
+.card-list .item .time span{font-size: .64rem;padding: 0 .2rem;}
+.card-list .item .detail {width: 100%;padding-top: .52rem;}
+.card-list .item .detail ul{width: 100%;display: flex;justify-content: space-between;text-align: center;padding: 0 .5rem;}
+.card-list .item .detail ul li span{display: block;float: left;font-size: .22rem;letter-spacing: .02rem;}
+.card-list .item .detail ul li p{font-size: .24rem;clear: both;padding-top: .05rem;}
+
+/* 如果不想使用背景图片，可以把12-14行注释掉，用如下样式 */
+/* .card-list .item::after{content: "";display: block;position: absolute;width: .3rem;height: .3rem;background: #ffffff;border-radius: 100%;left: -.15rem;top: 60%;}
+.card-list .item::before{content: "";display: block;position: absolute;width: .3rem;height: .3rem;background: #ffffff;border-radius: 100%;right: -.15rem;top: 60%;}
+.card-list .item.blue{background: linear-gradient(to top right,#5fc9f9,#7099fc,#7b7aff );}
+.card-list .item.purple{background: linear-gradient(to top right,#e876e4,#ba47e2,#a02ee1 );}
+.card-list .item.red{background: linear-gradient(to top right,#f6974c,#e2666d,#da5479 );}
+.card-list .item .time::after{content: "";display: block;position: absolute;top: 1.5rem;border: .02rem dashed rgba(0,0,0,.06);width: 100%;} */

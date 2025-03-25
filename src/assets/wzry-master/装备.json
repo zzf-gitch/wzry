@@ -1,0 +1,821 @@
+[
+	{
+		"item_name": "铁剑",
+		"item_type": "物理",
+		"price": 150,
+		"total_price": 250,
+		"des1": "<p>+20物理攻击</p>"
+	},
+	{
+		"item_name": "匕首",
+		"item_type": "物理",
+		"price": 174,
+		"total_price": 290,
+		"des1": "<p>+10%攻击速度 </p>"
+	},
+	{
+		"item_name": "搏击拳套",
+		"item_type": "物理",
+		"price": 192,
+		"total_price": 320,
+		"des1": "<p>+8%暴击率 </p>"
+	},
+	{
+		"item_name": "吸血之镰",
+		"item_type": "物理",
+		"price": 246,
+		"total_price": 410,
+		"des1": "<p>+10物理攻击<br>+8%物理吸血</p>"
+	},
+	{
+		"item_name": "雷鸣刃",
+		"item_type": "物理",
+		"price": 270,
+		"total_price": 450,
+		"des1": "<p>+40物理攻击</p>"
+	},
+	{
+		"item_name": "冲能拳套",
+		"item_type": "物理",
+		"price": 330,
+		"total_price": 550,
+		"des1": "<p>+15%暴击率</p> "
+	},
+	{
+		"item_name": "风暴巨剑",
+		"item_type": "物理",
+		"price": 546,
+		"total_price": 910,
+		"des1": "<p>+80物理攻击</p> "
+	},
+	{
+		"item_name": "日冕",
+		"item_type": "物理",
+		"price": 444,
+		"total_price": 740,
+		"des1": "<p>+20物理攻击<br>+5%冷却缩减<br>+300最大生命</p>"
+	},
+	{
+		"item_name": "狂暴双刃",
+		"item_type": "物理",
+		"price": 534,
+		"total_price": 890,
+		"des1": "<p>+15%攻击速度<br>+10%暴击率<br>+5%移速</p>"
+	},
+	{
+		"item_name": "陨星",
+		"item_type": "物理",
+		"price": 648,
+		"total_price": 1080,
+		"des1": "<p>+45物理攻击<br>+10%冷却缩减</p>"
+	},
+	{
+		"item_name": "碎星锤",
+		"item_type": "物理",
+		"price": 1260,
+		"total_price": 2100,
+		"des1": "<p>+80物理攻击<br>+10%冷却缩减</p>"
+	},
+	{
+		"item_name": "末世",
+		"item_type": "物理",
+		"price": 1296,
+		"total_price": 2160,
+		"des1": "<p>+60物理攻击<br>+30%攻击速度 <br>+10%物理吸血</p>"
+	},
+	{
+		"item_name": "名刀·司命",
+		"item_type": "物理",
+		"price": 1056,
+		"total_price": 1900,
+		"des1": "<p>+60物理攻击<br>+5%冷却缩减</p>"
+	},
+	{
+		"item_name": "寒霜袭侵",
+		"item_type": "物理",
+		"price": 1230,
+		"total_price": 2050,
+		"des1": "<p>+600最大生命<br>+30%攻击速度</p>"
+	},
+	{
+		"item_name": "速击之枪",
+		"item_type": "物理",
+		"price": 528,
+		"total_price": 880,
+		"des1": "<p>+20%攻击速度</p>"
+	},
+	{
+		"item_name": "制裁之刃",
+		"item_type": "物理",
+		"price": 1116,
+		"total_price": 1860,
+		"des1": "<p>+100物理攻击<br>+15%物理吸血<br>+500 最大生命</p>"
+	},
+	{
+		"item_name": "泣血之刃",
+		"item_type": "物理",
+		"price": 1080,
+		"total_price": 1800,
+		"des1": "<p>+100物理攻击<br>+25%物理吸血<br>+500 最大生命 </p>"
+	},
+	{
+		"item_name": "无尽战刃",
+		"item_type": "物理",
+		"price": 1284,
+		"total_price": 2140,
+		"des1": "<p>+110物理攻击<br>+25%暴击率</p>"
+	},
+	{
+		"item_name": "宗师之力",
+		"item_type": "物理",
+		"price": 1260,
+		"total_price": 2100,
+		"des1": "<p>+80物理攻击<br>+20%暴击率<br>+500 最大法力<br>+500最大生命</p>"
+	},
+	{
+		"item_name": "闪电匕首",
+		"item_type": "物理",
+		"price": 1104,
+		"total_price": 1840,
+		"des1": "<p>+40%攻击速度<br>+10%暴击率<br>+8%移速</p>"
+	},
+	{
+		"item_name": "影刃",
+		"item_type": "物理",
+		"price": 1242,
+		"total_price": 2070,
+		"des1": "<p>+40%攻击速度<br>+20%暴击率<br>+5%移速</p>"
+	},
+	{
+		"item_name": "暗影战斧",
+		"item_type": "物理",
+		"price": 1254,
+		"total_price": 2090,
+		"des1": "<p>+85物理攻击<br>+15%冷却缩减<br>+500最大生命</p>"
+	},
+	{
+		"item_name": "破军",
+		"item_type": "物理",
+		"price": 1770,
+		"total_price": 2950,
+		"des1": "<p>+180物理攻击 </p>"
+	},
+	{
+		"item_name": "纯净苍穹",
+		"item_type": "物理",
+		"price": 1338,
+		"total_price": 2121,
+		"des1": "<p>+100物理攻击<br>+10%冷却缩减<br>++500最大生命</p>"
+	},
+	{
+		"item_name": "逐日之弓",
+		"item_type": "物理",
+		"price": 1260,
+		"total_price": 2100,
+		"des1": "<p>+25%攻击速度<br>+15%暴击</p>"
+	},
+	{
+		"item_name": "破魔刀",
+		"item_type": "物理",
+		"price": 1254,
+		"total_price": 2090,
+		"des1": "<p>+90物理攻击<br>+100法术防御<br>+500最大生命</p>"
+	},
+	{
+		"item_name": "穿云弓",
+		"item_type": "物理",
+		"price": 660,
+		"total_price": 1100,
+		"des1": "<p>+40物理攻击<br>+10%攻击速度</p>"
+	},
+	{
+		"item_name": "破晓",
+		"item_type": "物理",
+		"price": 2040,
+		"total_price": 3400,
+		"des1": "<p>+50物理攻击<br>+35%攻击速度<br>+10%暴击率</p>"
+	},
+	{
+		"item_name": "咒术典籍",
+		"item_type": "法术",
+		"price": 180,
+		"total_price": 300,
+		"des1": "<p>+40法术攻击</p> "
+	},
+	{
+		"item_name": "蓝宝石",
+		"item_type": "法术",
+		"price": 132,
+		"total_price": 220,
+		"des1": "<p>+300最大法力</p>"
+	},
+	{
+		"item_name": "炼金护符",
+		"item_type": "法术",
+		"price": 72,
+		"total_price": 120,
+		"des1": "<p>+10 每5秒回蓝</p> "
+	},
+	{
+		"item_name": "圣者法典",
+		"item_type": "法术",
+		"price": 240,
+		"total_price": 400,
+		"des1": "<p>+30法术攻击<br>+4%冷却缩减</p>"
+	},
+	{
+		"item_name": "元素杖",
+		"item_type": "法术",
+		"price": 324,
+		"total_price": 540,
+		"des1": "<p>+80法术攻击</p> "
+	},
+	{
+		"item_name": "大棒",
+		"item_type": "法术",
+		"price": 492,
+		"total_price": 820,
+		"des1": "<p>+120法术攻击</p>"
+	},
+	{
+		"item_name": "破碎圣杯",
+		"item_type": "法术",
+		"price": 540,
+		"total_price": 900,
+		"des1": "<p>+60法术攻击<br>+8%冷却缩减<br>+20 每5秒回蓝</p>"
+	},
+	{
+		"item_name": "光辉之剑",
+		"item_type": "法术",
+		"price": 438,
+		"total_price": 730,
+		"des1": "<p>+400最大生命<br>+400最大法力</p> "
+	},
+	{
+		"item_name": "进化水晶",
+		"item_type": "法术",
+		"price": 432,
+		"total_price": 720,
+		"des1": "<p>+400最大法力<br>+400最大生命</p>"
+	},
+	{
+		"item_name": "血族之书",
+		"item_type": "法术",
+		"price": 744,
+		"total_price": 1240,
+		"des1": "<p>+75法术攻击<br>+10%冷却缩减</p>"
+	},
+	{
+		"item_name": "炽热支配者",
+		"item_type": "法术",
+		"price": 1170,
+		"total_price": 1950,
+		"des1": "<p>+200法术攻击<br>+600最大法力<br>+15 每5秒回蓝</p>"
+	},
+	{
+		"item_name": "梦魇之牙",
+		"item_type": "法术",
+		"price": 1230,
+		"total_price": 2050,
+		"des1": "<p>+240法术攻击<br>+5%移速<br>+5%冷却缩减</p>"
+	},
+	{
+		"item_name": "虚无法杖",
+		"item_type": "法术",
+		"price": 1266,
+		"total_price": 2110,
+		"des1": "<p>+240法术攻击<br>+500最大生命值</p>"
+	},
+	{
+		"item_name": "博学者之怒",
+		"item_type": "法术",
+		"price": 1380,
+		"total_price": 2300,
+		"des1": "<p>+240法术攻击</p>"
+	},
+	{
+		"item_name": "辉月",
+		"item_type": "法术",
+		"price": 1194,
+		"total_price": 1990,
+		"des1": "<p>+160法术攻击<br>+10%冷却缩减</p>"
+	},
+	{
+		"item_name": "回响之杖",
+		"item_type": "法术",
+		"price": 1260,
+		"total_price": 2100,
+		"des1": "<p>+240法术攻击 <br>+7%移速 </p>"
+	},
+	{
+		"item_name": "凝冰之息",
+		"item_type": "法术",
+		"price": 1260,
+		"total_price": 2100,
+		"des1": "+160法术攻击<br>+5%冷却缩减<br>+600最大生命</p>"
+	},
+	{
+		"item_name": "痛苦面具",
+		"item_type": "法术",
+		"price": 1224,
+		"total_price": 2040,
+		"des1": "<p>+120法术攻击<br>+5%冷却缩减<br>+800最大生命</p>"
+	},
+	{
+		"item_name": "巫术法杖",
+		"item_type": "法术",
+		"price": 1272,
+		"total_price": 2120,
+		"des1": "<p>+180法术攻击<br>+500最大生命<br>+500最大法力<br>+8%移速</p>"
+	},
+	{
+		"item_name": "圣杯",
+		"item_type": "法术",
+		"price": 1080,
+		"total_price": 1800,
+		"des1": "<p>+180法术攻击<br>+15%冷却缩减<br>+25每5秒回蓝</p>"
+	},
+	{
+		"item_name": "时之预言",
+		"item_type": "法术",
+		"price": 1254,
+		"total_price": 2090,
+		"des1": "<p>+140法术攻击<br>+500最大法力<br>+800最大生命</p>"
+	},
+	{
+		"item_name": "贤者之书",
+		"item_type": "法术",
+		"price": 1794,
+		"total_price": 2990,
+		"des1": "<p>+400法术攻击<br>+10%冷却缩减</p>"
+	},
+	{
+		"item_name": "噬神之书",
+		"item_type": "法术",
+		"price": 1254,
+		"total_price": 2090,
+		"des1": "<p>+180法术攻击<br>+10%冷却缩减<br>+1000最大生命</p>"
+	},
+	{
+		"item_name": "红玛瑙",
+		"item_type": "防御",
+		"price": 180,
+		"total_price": 300,
+		"des1": "<p>+300最大生命</p>"
+	},
+	{
+		"item_name": "布甲",
+		"item_type": "防御",
+		"price": 132,
+		"total_price": 220,
+		"des1": "<p>+90物理防御</p>"
+	},
+	{
+		"item_name": "抗魔披风",
+		"item_type": "防御",
+		"price": 132,
+		"total_price": 220,
+		"des1": "<p>+90法术防御</p>"
+	},
+	{
+		"item_name": "提神水晶",
+		"item_type": "防御",
+		"price": 84,
+		"total_price": 140,
+		"des1": "<p>+30 每5秒回复</p>"
+	},
+	{
+		"item_name": "力量腰带",
+		"item_type": "防御",
+		"price": 540,
+		"total_price": 900,
+		"des1": "<p>+1000最大生命</p>"
+	},
+	{
+		"item_name": "熔炼之心",
+		"item_type": "防御",
+		"price": 540,
+		"total_price": 900,
+		"des1": "<p>+700最大生命</p>"
+	},
+	{
+		"item_name": "神隐斗篷",
+		"item_type": "防御",
+		"price": 612,
+		"total_price": 1020,
+		"des1": "<p>+120法术防御<br>+700最大生命<br>+50每5秒回血</p>"
+	},
+	{
+		"item_name": "雪山圆盾",
+		"item_type": "防御",
+		"price": 540,
+		"total_price": 900,
+		"des1": "<p>+10%减CD<br>+400最大法力<br>+110物理防御</p>"
+	},
+	{
+		"item_name": "守护者之铠",
+		"item_type": "防御",
+		"price": 438,
+		"total_price": 730,
+		"des1": "<p>+210物理防御</p>"
+	},
+	{
+		"item_name": "近卫荣耀",
+		"item_type": "辅助",
+		"price": 1260,
+		"total_price": 2100,
+		"des1": "<p>+8%移动速度<br>+800最大生命</p>"
+	},
+	{
+		"item_name": "奔狼纹章",
+		"item_type": "辅助",
+		"price": 1260,
+		"total_price": 2100,
+		"des1": "<p>+8%移动速度<br>+800最大生命</p>"
+	},
+	{
+		"item_name": "反伤刺甲",
+		"item_type": "防御",
+		"price": 1104,
+		"total_price": 1910,
+		"des1": "<p>+30物理攻击<br>+400物理防御</p>"
+	},
+	{
+		"item_name": "血魔之怒",
+		"item_type": "防御",
+		"price": 1272,
+		"total_price": 2120,
+		"des1": "<p>+40物理攻击<br>+1200最大生命</p>"
+	},
+	{
+		"item_name": "红莲斗篷",
+		"item_type": "防御",
+		"price": 1098,
+		"total_price": 1830,
+		"des1": "<p>+240物理防御<br>+1000最大生命</p>"
+	},
+	{
+		"item_name": "霸者重装",
+		"item_type": "防御",
+		"price": 1242,
+		"total_price": 2070,
+		"des1": "<p>+2000最大生命<br>+100每5秒回血</p>"
+	},
+	{
+		"item_name": "冰霜冲击",
+		"item_type": "防御",
+		"price": 1260,
+		"total_price": 2100,
+		"des1": "<p>+240物理防御<br>+1000最大生命</p>"
+	},
+	{
+		"item_name": "不祥征兆",
+		"item_type": "防御",
+		"price": 1308,
+		"total_price": 2180,
+		"des1": "<p>+270物理防御<br>+1200最大生命</p>"
+	},
+	{
+		"item_name": "不死鸟之眼",
+		"item_type": "防御",
+		"price": 1260,
+		"total_price": 2100,
+		"des1": "<p>+100每5秒回血<br>+240法术防御<br>+1200最大生命</p>"
+	},
+	{
+		"item_name": "魔女斗篷",
+		"item_type": "防御",
+		"price": 1272,
+		"total_price": 2080,
+		"des1": "<p>+200法术防御<br>+1000最大生命<br>+100每5秒回血</p>"
+	},
+	{
+		"item_name": "极寒风暴",
+		"item_type": "防御",
+		"price": 1260,
+		"total_price": 2100,
+		"des1": "<p>+20%冷却缩减<br>+500最大法力<br>+360物理防御</p>"
+	},
+	{
+		"item_name": "冰痕之握",
+		"item_type": "防御",
+		"price": 1260,
+		"total_price": 2100,
+		"des1": "<p>+500最大生命<br>+500最大法力<br>+10%冷却缩减<br>+240物理防御<br>+40物理攻击</p>"
+	},
+	{
+		"item_name": "贤者的庇护",
+		"item_type": "防御",
+		"price": 1260,
+		"total_price": 2100,
+		"des1": "<p>+140物理防御<br>+140法术防御</p>"
+	},
+	{
+		"item_name": "暴烈之甲",
+		"item_type": "防御",
+		"price": 1170,
+		"total_price": 1950,
+		"des1": "<p>+220物理防御<br>+900最大生命<br>+5%移速<br>+30物理攻击</p>"
+	},
+	{
+		"item_name": "神速之靴",
+		"item_type": "移动",
+		"price": 150,
+		"total_price": 250,
+		"des1": "<p>唯一被动：+30移动速度</p>"
+	},
+	{
+		"item_name": "影忍之足",
+		"item_type": "移动",
+		"price": 426,
+		"total_price": 710,
+		"des1": "<p>+110物理防御</p>"
+	},
+	{
+		"item_name": "抵抗之靴",
+		"item_type": "移动",
+		"price": 426,
+		"total_price": 710,
+		"des1": "<p>+110法术防御</p>"
+	},
+	{
+		"item_name": "冷静之靴",
+		"item_type": "移动",
+		"price": 426,
+		"total_price": 710,
+		"des1": "<p>+15%减CD</p>"
+	},
+	{
+		"item_name": "秘法之靴",
+		"item_type": "移动",
+		"price": 426,
+		"total_price": 710,
+		"des1": "<p>+25 每5秒回蓝</p>"
+	},
+	{
+		"item_name": "急速战靴",
+		"item_type": "移动",
+		"price": 426,
+		"total_price": 710,
+		"des1": "<p>+25%攻速</p>"
+	},
+	{
+		"item_name": "疾步之靴",
+		"item_type": "移动",
+		"price": 318,
+		"total_price": 530,
+		"des1": "<p>唯一被动-神行：脱离战斗后增加60移动速度<br>唯一被动：+60移动速度（所有鞋类装备的移速加成效果不叠加）</p>"
+	},
+	{
+		"item_name": "狩猎宽刃",
+		"item_type": "打野",
+		"price": 150,
+		"total_price": 250,
+		"des1": "<p>（打野刀升级后将惩戒技能替换为寒冰惩戒：寒冰惩戒可对英雄使用，造成伤害和减速效果）<br>必须携带惩击才可够买</p>"
+	},
+	{
+		"item_name": "游击弯刀",
+		"item_type": "打野",
+		"price": 450,
+		"total_price": 750,
+		"des1": "<p>必须携带惩击才可够买，获得寒冰惩击效果</p>"
+	},
+	{
+		"item_name": "巡守利斧",
+		"item_type": "打野",
+		"price": 450,
+		"total_price": 750,
+		"des1": "<p>唯一被动-燎火：技能或普攻对命中的敌方英雄造成每秒(30+2%额外生命)法术伤害，并减少其40点移速，持续3秒，该效果有10秒冷却时间。远程英雄使用时伤害和减速效果减半。<br>前4分钟对兵线伤害降低25%，无视敌方野区保护</p>"
+	},
+	{
+		"item_name": "追击刀锋",
+		"item_type": "打野",
+		"price": 450,
+		"total_price": 750,
+		"des1": "<p>必须携带惩击才可够买，获得寒冰惩击效果</p>"
+	},
+	{
+		"item_name": "符文大剑",
+		"item_type": "打野",
+		"price": 1296,
+		"total_price": 2160,
+		"des1": "<p>+80法术攻击<br>+5%冷却缩减<br>+7%移速</p>"
+	},
+	{
+		"item_name": "巨人之握",
+		"item_type": "打野",
+		"price": 1080,
+		"total_price": 1800,
+		"des1": "<p>+800最大生命<br>前4分钟对兵线伤害降低25%，无视敌方野区保护</p>"
+	},
+	{
+		"item_name": "贪婪之噬",
+		"item_type": "打野",
+		"price": 1296,
+		"total_price": 2160,
+		"des1": "<p>+60物理攻击<br>+8%移速</p>"
+	},
+	{
+		"item_name": "鼓舞之盾",
+		"item_type": "辅助",
+		"price": 600,
+		"total_price": 1000,
+		"des1": "<p>+5%移动速度<br>+400最大生命</p>"
+	},
+	{
+		"item_name": "风灵纹章",
+		"item_type": "辅助",
+		"price": 720,
+		"total_price": 1200,
+		"des1": "<p>+5%移动速度<br>+400最大生命</p>"
+	},
+	{
+		"item_name": "救赎之翼",
+		"item_type": "辅助",
+		"price": 1260,
+		"total_price": 2100,
+		"des1": "<p>+8%移动速度<br>+800最大生命</p>"
+	},
+	{
+		"item_name": "风之轻语",
+		"item_type": "辅助",
+		"price": 720,
+		"total_price": 1200,
+		"des1": "<p>+5%移速<br>+400最大生命</p>"
+	},
+	{
+		"item_name": "极影",
+		"item_type": "辅助",
+		"price": 1260,
+		"total_price": 2100,
+		"des1": "<p>+8%移动速度<br>+800最大生命</p>"
+	},
+	{
+		"item_name": "星泉",
+		"item_type": "辅助",
+		"price": 1260,
+		"total_price": 2100,
+		"des1": "<p>+800最大生命<br>+8%移动速度</p>"
+	},
+	{
+		"item_name": "星之佩饰",
+		"item_type": "辅助",
+		"price": 720,
+		"total_price": 1200,
+		"des1": "<p>+400最大生命<br>+5%移动速度</p>"
+	},
+	{
+		"item_name": "凤鸣指环",
+		"item_type": "辅助",
+		"price": 600,
+		"total_price": 1000,
+		"des1": "<p>+5%移动速度<br>+400最大生命</p>"
+	},
+	{
+		"item_name": "学识宝石",
+		"item_type": "辅助",
+		"price": 180,
+		"total_price": 300,
+		"des1": "<p>+5%移动速度</p>"
+	},
+	{
+		"item_name": "日暮之流",
+		"item_type": "法术",
+		"price": 1272,
+		"total_price": 2120,
+		"des1": "<p>+200法术攻击<br>+300最大生命<br>+10%冷却缩减</p>"
+	},
+	{
+		"item_name": "金色圣剑",
+		"item_type": "法术",
+		"price": 1242,
+		"total_price": 2070,
+		"des1": "<p>+160法术攻击<br>+20%攻击速度<br>+5%移动速度</p>"
+	},
+	{
+		"item_name": "弃鳞短刃",
+		"item_type": "打野",
+		"price": 150,
+		"total_price": 250,
+		"des1": "<p>必须携带惩击才可购买<br>前4分钟对兵线伤害降低25%，无视敌方野区保护</p>"
+	},
+	{
+		"item_name": "龙鳞利剑",
+		"item_type": "打野",
+		"price": 450,
+		"total_price": 750,
+		"des1": "<p>+8%移动速度<br>前4分钟对兵线伤害降低25%，无视敌方野区保护</p>"
+	},
+	{
+		"item_name": "浴火之怒",
+		"item_type": "打野",
+		"price": 1248,
+		"total_price": 2080,
+		"des1": "<p>+120物理防御<br>+120法术防御<br>+10%移动速度<br>前4分钟对兵线伤害降低25%，无视敌方野区保护</p>"
+	},
+	{
+		"item_name": "荆棘护手",
+		"item_type": "防御",
+		"price": 426,
+		"total_price": 710,
+		"des1": "<p>+160物理防御<br>+30物理攻击</p>"
+	},
+	{
+		"item_name": "永夜守护",
+		"item_type": "防御",
+		"price": 1266,
+		"total_price": 2110,
+		"des1": "<p>+360法术防御<br>+1000最大生命</p>"
+	},
+	{
+		"item_name": "暗夜小甲",
+		"item_type": "防御",
+		"price": 426,
+		"total_price": 710,
+		"des1": "<p>+180法术防御</p>"
+	},
+	{
+		"item_name": "原初遗珠",
+		"item_type": "防御",
+		"price": 750,
+		"total_price": 1250,
+		"des1": "<p>+140物理防御<br>+140法术防御</p>"
+	},
+	{
+		"item_name": "怒魂",
+		"item_type": "防御",
+		"price": 2022,
+		"total_price": 3370,
+		"des1": "<p>+40物理攻击<br>+1000最大生命</p>"
+	},
+	{
+		"item_name": "凛冬",
+		"item_type": "防御",
+		"price": 2010,
+		"total_price": 3350,
+		"des1": "<p>+240物理防御<br>+1000最大生命</p>"
+	},
+	{
+		"item_name": "日渊",
+		"item_type": "物理",
+		"price": 2010,
+		"total_price": 3350,
+		"des1": "<p>+25%攻击速度<br>+15%暴击率</p>"
+	},
+	{
+		"item_name": "天穹",
+		"item_type": "物理",
+		"price": 2022,
+		"total_price": 3370,
+		"des1": "<p>+100物理攻击<br>+10%冷却缩减<br>+500最大生命</p>"
+	},
+	{
+		"item_name": "月神",
+		"item_type": "法术",
+		"price": 1944,
+		"total_price": 3240,
+		"des1": "<p>+160法术攻击<br>+10%冷却缩减</p>"
+	},
+	{
+		"item_name": "魔道之石",
+		"item_type": "法术",
+		"price": 534,
+		"total_price": 890,
+		"des1": "<p>+90法术攻击</p>"
+	},
+	{
+		"item_name": "云灵木",
+		"item_type": "法术",
+		"price": 582,
+		"total_price": 970,
+		"des1": "<p>+70法术攻击<br>+300最大生命</p>"
+	},
+	{
+		"item_name": "出影晶石",
+		"item_type": "辅助",
+		"price": 720,
+		"total_price": 1200,
+		"des1": "<p>+400生命<br>+5%移动速度</p>"
+	},
+	{
+		"item_name": "形昭之鉴",
+		"item_type": "辅助",
+		"price": 1260,
+		"total_price": 2100,
+		"des1": "<p>+800生命<br>+8%移动速度</p>"
+	},
+	{
+		"item_name": "迅捷长矛",
+		"item_type": "物理",
+		"price": 180,
+		"total_price": 300,
+		"des1": "<p>+10物理攻击<br>+4%冷却缩减</p>"
+	},
+	{
+		"item_name": "破茧之衣",
+		"item_type": "法术",
+		"price": 1296,
+		"total_price": 2160,
+		"des1": "<p>+160 法术攻击<br>+1000 最大生命</p>"
+	}
+]
