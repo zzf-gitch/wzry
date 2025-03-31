@@ -97,6 +97,7 @@
           <p>{{ $t('person.QQ1') }}：<span>2452884452</span></p>
           <p>{{ $t('person.QQ2') }}：<span>2067765949</span></p>
           <p>{{ $t('person.mailbox') }}：<span>Z15903509849@163.com</span></p>
+          <p>{{ $t('person.version') }}：<span>{{ version }}</span></p>
           <h1 class="kaifa">{{ $t('person.browser') }}：</h1>
           <p>{{ $t('person.RecommendedUse') }}<a @click="Google">Google Chrome</a>{{ $t('person.mailbox') }}</p>
           <h1 class="kaifa">{{ $t('person.mattersNeedingAttention') }}：</h1>
@@ -178,6 +179,11 @@ const formSize = ref("default");
 const GG = ref(true)
 const ruleFormRef = ref("");
 const Gisshow = ref(false)
+
+// 项目版本号
+const version = process.env.VERSION;
+console.log('Version:', version); // 输出: 1.0.0
+
 const ZYimg = reactive([
   {
     path:require('../assets/主页1.jpg')

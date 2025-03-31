@@ -9,7 +9,8 @@ export default {
         RecommendedUse: 'Empfohlene Verwendung',
         mattersNeedingAttention: 'Notizen',
         mattersNeedingAttention1: 'Es ist verboten, das Original zu verändern und für kommerzielle Zwecke zu verwenden',
-        mattersNeedingAttention2: 'Diese Seite ist nur für Entwickler gedacht, um zu kommunizieren und zu lernen'
+        mattersNeedingAttention2: 'Diese Seite ist nur für Entwickler gedacht, um zu kommunizieren und zu lernen',
+        version: 'Versionsnummer',
     },
     home:{
         wzry:"einloggen",

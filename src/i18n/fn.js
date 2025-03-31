@@ -9,7 +9,8 @@ export default {
         RecommendedUse: 'Usage recommandé',
         mattersNeedingAttention: 'Notes',
         mattersNeedingAttention1: 'Il est interdit de modifier l’original et de l’utiliser à des fins commerciales',
-        mattersNeedingAttention2: 'Cette page est destinée aux développeurs uniquement pour communiquer et apprendre'
+        mattersNeedingAttention2: 'Cette page est destinée aux développeurs uniquement pour communiquer et apprendre',
+        version: 'numéro de version',
     },
     home:{
         wzry:"connectez-vous",

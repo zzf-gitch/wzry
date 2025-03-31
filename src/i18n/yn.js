@@ -9,7 +9,8 @@ export default {
         RecommendedUse: 'Consigli d\'uso',
         mattersNeedingAttention: 'Note',
         mattersNeedingAttention1: 'È vietato modificare l\'originale e utilizzarlo per scopi commerciali',
-        mattersNeedingAttention2: 'Questa pagina è destinata solo agli sviluppatori per comunicare e imparare'
+        mattersNeedingAttention2: 'Questa pagina è destinata solo agli sviluppatori per comunicare e imparare',
+        version: 'numero di versione',
     },
     home:{
         wzry:"accesso",

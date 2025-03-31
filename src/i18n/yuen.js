@@ -9,7 +9,8 @@ export default {
         RecommendedUse: '推薦使用',
         mattersNeedingAttention: '注意事項',
         mattersNeedingAttention1: '禁止喺原有基礎上修改並用于商業用途',
-        mattersNeedingAttention2: '此網頁對於開發者而言，僅用于交流與學習'
+        mattersNeedingAttention2: '此網頁對於開發者而言，僅用于交流與學習',
+        version: '版本號',
     },
     home:{
         wzry:"登錄",

@@ -9,7 +9,8 @@ export default {
         RecommendedUse: 'Рекомендации по применению',
         mattersNeedingAttention: 'Примечания',
         mattersNeedingAttention1: 'Запрещается модифицировать оригинал и использовать его в коммерческих целях',
-        mattersNeedingAttention2: 'Эта страница предназначена только для общения и обучения разработчиков'
+        mattersNeedingAttention2: 'Эта страница предназначена только для общения и обучения разработчиков',
+        version: 'номер версии',
     },
     home:{
         wzry:"логин",

@@ -9,7 +9,8 @@ export default {
         RecommendedUse: 'RecommendedUse',
         mattersNeedingAttention: 'mattersNeedingAttention',
         mattersNeedingAttention1: 'ProhibitModificationOnTheOriginalBasisAndUseForCommercialPurposes',
-        mattersNeedingAttention2: 'ForDevelopers,ThisPageIsOnlyUsedForCommunicationAndLearning'
+        mattersNeedingAttention2: 'ForDevelopers,ThisPageIsOnlyUsedForCommunicationAndLearning',
+        version: 'version',
     },
     home:{
         wzry:"Login",

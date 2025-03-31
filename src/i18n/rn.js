@@ -9,7 +9,8 @@ export default {
         RecommendedUse: '推奨される使用方法',
         mattersNeedingAttention: '筆記',
         mattersNeedingAttention1: 'オリジナルを変更して商業目的で使用することは禁じられています',
-        mattersNeedingAttention2: 'このページは、開発者がコミュニケーションを取り、学ぶことのみを目的としています'
+        mattersNeedingAttention2: 'このページは、開発者がコミュニケーションを取り、学ぶことのみを目的としています',
+        version: 'バージョン番号',
     },
     home:{
         wzry:"ログイン",

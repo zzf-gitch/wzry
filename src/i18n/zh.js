@@ -9,7 +9,8 @@ export default {
         RecommendedUse: '推荐使用',
         mattersNeedingAttention: '注意事项',
         mattersNeedingAttention1: '禁止在原有基础上修改并用于商业用途',
-        mattersNeedingAttention2: '此网页对于开发者而言，仅用于交流与学习'
+        mattersNeedingAttention2: '此网页对于开发者而言，仅用于交流与学习',
+        version: '版本号',
     },
     home:{
         wzry:"登录",

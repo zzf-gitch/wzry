@@ -9,7 +9,8 @@ export default {
         RecommendedUse: '권장 사용법',
         mattersNeedingAttention: '노트',
         mattersNeedingAttention1: '원본을 수정하여 상업적 목적으로 사용하는 것은 금지되어 있습니다',
-        mattersNeedingAttention2: '이 페이지는 개발자가 의사 소통하고 학습하기 위한 것입니다'
+        mattersNeedingAttention2: '이 페이지는 개발자가 의사 소통하고 학습하기 위한 것입니다',
+        version: '버전 번호',
     },
     home:{
         wzry:"로그인",
