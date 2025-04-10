@@ -7,7 +7,7 @@ module.exports = {
             builderOptions: {
                 "appId": "com.example.app",
                 "productName": "王者荣耀后台管理系统", //项目名，也是生成的安装文件名，即aDemo.exe
-                "copyright": "zzf © 2023", //版权信息
+                "copyright": "zzf © 2025", //版权信息
                 // "directories": {
                 //     "output": "./dist_electron" //输出文件路径，之前编译的默认是dist_electron
                 // },
