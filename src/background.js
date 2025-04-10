@@ -10,6 +10,8 @@ protocol.registerSchemesAsPrivileged([
   { scheme: 'app', privileges: { secure: true, standard: true } }
 ])
 
+//窗口属性样式
+const path = require('path')
 async function createWindow() {
   // Create the browser window.
   const win = new BrowserWindow({
