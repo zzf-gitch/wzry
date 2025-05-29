@@ -791,6 +791,14 @@ const routes = [
                 }
             },
         ]
+    },
+    {
+        path: '/WechatChat',
+        name: 'WechatChat',
+        component: () => import('@/views/WechatChat.vue'),
+        meta: {
+            title: "微信聊天"
+        }
     }
 ]
 
