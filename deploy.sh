@@ -6,15 +6,21 @@ set -e
 # 生成静态文件
 npm run build
 
-# 进入生成的文件夹
-cd dist
+# 创建临时英文路径
+TEMP_DIR=$(mktemp -d)
+cp -r dist/* "$TEMP_DIR"
+
+# 进入临时文件夹
+cd "$TEMP_DIR"
 
 git init
+git config --global core.quotepath false  # 解决中文路径问题
 git add -A
 git commit -m 'deploy'
 
-# Jacqueline712/mondaylab-blog 替换为自己的用户名和对应的仓库名
-# 意思为将master构建后的代码合并到gh-pages分支上，然后在gh-pages分支上部署~
+# 推送到GitHub Pages
 git push -f git@github.com:zzf-gitch/wzry.git master:gh-pages
 
+# 清理临时文件夹
 cd -
+rm -rf "$TEMP_DIR"
