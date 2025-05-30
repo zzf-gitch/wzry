@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve --mode development --open",
     "build": "vue-cli-service build --mode production",
+    "prebuild": "npm version patch --no-git-tag-version",
     "lint": "vue-cli-service lint",
     "electron:build": "vue-cli-service electron:build",
     "electron:serve": "vue-cli-service electron:serve",

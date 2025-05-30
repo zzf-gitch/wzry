@@ -51,7 +51,7 @@
                   margin-right: 20px;">
                   <el-button type="success" @click="goQQ">登录QQ</el-button>
                   <el-button type="primary" @click="getPdf('#pdfDom')">导出为PDF</el-button>
-                  <a href="./王者荣耀后台管理系统.docx" download id="download">下载使用手册</a>
+                  <a href="./wzryUserManual.docx" download id="download">下载使用手册</a>
                   <el-button type="danger" @click="qu">退出登录</el-button>
                 </div>
               </div>
