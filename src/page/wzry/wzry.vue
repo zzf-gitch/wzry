@@ -1,146 +1,152 @@
 <template>
-  <div class="common-layout" id="pdfDom">
-    <el-container>
-      <el-aside :width="isCollapse ? '58px' : '190px'">
-        <wzry_menu></wzry_menu>
-      </el-aside>
+  <el-watermark :font="{ color: 'white' }" :gap="[300, 300]" :content="['王者荣耀后台管理系统', 'Github作者:zzf-gitch']" :zIndex="1000"
+    family="Microsoft YaHei">
+    <div class="common-layout" id="pdfDom">
       <el-container>
-        <el-header>
-          <div style="width: 100%; height: 100%">
-            <div style="width: 100%; height: 50%; display: flex">
-              <div class="img">
-                <div class="cal" @click="toisCollopse" :title="isCollapse ? '展开菜单' : '收起菜单'" :class="isCollapse
-                  ? 'iconfont icon-zhankaicaidan'
-                  : 'iconfont icon-shouqicaidan'
-                  "></div>
-                <Breadcrumb />
-              </div>
-              <div class="login">
-                <div class="img_zzf" :style="`background:url(${zzf}) center / cover`" @click="to" @mouseenter="mouseenter"></div>
-                <span style="margin-left: 10px; font-size: 14px; font-weight: 900">{{ time }},&nbsp;&nbsp;{{
-                  name
-                }}&nbsp;&nbsp;&nbsp;今日{{weekText}}</span>
-              </div>
-
-
-              <div class="logininfoss" :class="{ lineactive: lineactive }" @mouseleave="mouseleave">
-                <div class="zfx"></div>
-                <div class="logininfo">
-                  <el-button type="primary" class="word" @click="word">cardword</el-button>
-                  <el-button type="primary" class="adaptiondemo" @click="adaptiondemo">vueself</el-button>
-                  <el-button type="primary" class="adaptiondemo" @click="timer">timer</el-button>
-                  <el-button type="primary" class="adaptiondemo" @click="fordemo">fordemo</el-button>
+        <el-aside :width="isCollapse ? '58px' : '190px'">
+          <wzry_menu></wzry_menu>
+        </el-aside>
+        <el-container>
+          <el-header>
+            <div style="width: 100%; height: 100%">
+              <div style="width: 100%; height: 50%; display: flex">
+                <div class="img">
+                  <div class="cal" @click="toisCollopse" :title="isCollapse ? '展开菜单' : '收起菜单'" :class="isCollapse
+                    ? 'iconfont icon-zhankaicaidan'
+                    : 'iconfont icon-shouqicaidan'
+                    "></div>
+                  <Breadcrumb />
                 </div>
-              </div>
+                <div class="login">
+                  <div class="img_zzf" :style="`background:url(${zzf}) center / cover`" @click="to"
+                    @mouseenter="mouseenter"></div>
+                  <span style="margin-left: 10px; font-size: 14px; font-weight: 900">{{ time }},&nbsp;&nbsp;{{
+                    name
+                  }}&nbsp;&nbsp;&nbsp;今日{{ weekText }}</span>
+                </div>
 
-              <div class="showTime">{{ t }}</div>
-              <div v-if="isSupport" class="full-screen" :title="fullScreen ? '退出全屏' : '进入全屏'" @click="screen">
-                <i :class="fullScreen
-                  ? 'iconfont icon-guanbiquanping'
-                  : 'iconfont icon-fullscreen-line'
-                  ">
-                </i>
-              </div>
-              <div style="
+
+                <div class="logininfoss" :class="{ lineactive: lineactive }" @mouseleave="mouseleave">
+                  <div class="zfx"></div>
+                  <div class="logininfo">
+                    <el-button type="primary" class="word" @click="word">cardword</el-button>
+                    <el-button type="primary" class="adaptiondemo" @click="adaptiondemo">vueself</el-button>
+                    <el-button type="primary" class="adaptiondemo" @click="timer">timer</el-button>
+                    <el-button type="primary" class="adaptiondemo" @click="fordemo">fordemo</el-button>
+                  </div>
+                </div>
+
+                <div class="showTime">{{ t }}</div>
+                <div v-if="isSupport" class="full-screen" :title="fullScreen ? '退出全屏' : '进入全屏'" @click="screen">
+                  <i :class="fullScreen
+                    ? 'iconfont icon-guanbiquanping'
+                    : 'iconfont icon-fullscreen-line'
+                    ">
+                  </i>
+                </div>
+                <div style="
                   display: flex;
                   align-items: center;
                   justify-content: center;
                   margin-right: 20px;">
-                <el-button type="success" @click="goQQ">登录QQ</el-button>
-                <el-button type="primary" @click="getPdf('#pdfDom')">导出为PDF</el-button>
-                <a href="./王者荣耀后台管理系统.docx" download id="download">下载使用手册</a>
-                <el-button type="danger" @click="qu">退出登录</el-button>
+                  <el-button type="success" @click="goQQ">登录QQ</el-button>
+                  <el-button type="primary" @click="getPdf('#pdfDom')">导出为PDF</el-button>
+                  <a href="./王者荣耀后台管理系统.docx" download id="download">下载使用手册</a>
+                  <el-button type="danger" @click="qu">退出登录</el-button>
+                </div>
+              </div>
+              <div style="width: 100%; height: 50%">
+                <CommonTags />
               </div>
             </div>
-            <div style="width: 100%; height: 50%">
-              <CommonTags />
+          </el-header>
+          <el-main>
+            <!-- 动态组件动画效果 -->
+            <router-view #default="{ Component }">
+              <Transition :appear="true" enter-active-class="admin_fadeInRight" leave-active-class="admin_fadeOutLeft">
+                <component :is="Component"></component>
+              </Transition>
+            </router-view>
+
+          </el-main>
+          <el-footer>
+            <div class="start">
+              <div class="window" @click="start"><i class="iconfont icon-windows"></i></div>
+              <!-- <div class="input" :class="{ line: line }" @click="long"><input type="text" /></div> -->
             </div>
-          </div>
-        </el-header>
-        <el-main>
-          <!-- 动态组件动画效果 -->
-          <router-view #default="{ Component }">
-            <Transition :appear="true" enter-active-class="admin_fadeInRight" leave-active-class="admin_fadeOutLeft">
-              <component :is="Component"></component>
-            </Transition>
-          </router-view>
+            <!-- 开始按钮盒子 -->
+            <div class="bigbox" :class="{ bigboxline: bigboxline }">
+              <div class="bigbox_left">
+                <template v-for="(menu, index) in bigbox.data" :key="index">
+                  <div class="big_top" @click="top">
+                    <span class="menu_name">{{ menu.name }}</span>
+                    <i class="iconfont i" :class="{ active_transform: active_transform }">{{ menu.icon }}</i>
+                  </div>
+                  <div class="menu_main" :class="{ mook: mook }">
+                    <template v-for="(item, index) in menu.children" :key="index">
 
-        </el-main>
-        <el-footer>
-          <div class="start">
-            <div class="window" @click="start"><i class="iconfont icon-windows"></i></div>
-            <!-- <div class="input" :class="{ line: line }" @click="long"><input type="text" /></div> -->
-          </div>
-          <!-- 开始按钮盒子 -->
-          <div class="bigbox" :class="{ bigboxline: bigboxline }">
-            <div class="bigbox_left">
-              <template v-for="(menu, index) in bigbox.data" :key="index">
-                <div class="big_top" @click="top">
-                  <span class="menu_name">{{ menu.name }}</span>
-                  <i class="iconfont i" :class="{ active_transform: active_transform }">{{ menu.icon }}</i>
-                </div>
-                <div class="menu_main" :class="{ mook: mook }">
-                  <template v-for="(item, index) in menu.children" :key="index">
+                      <template v-if="item.children">
+                        <div class="box_mains">
+                          <i class="iconfont">{{ item.icons }}</i>
+                          <span @click="box_mains(index)">{{ item.title }}</span>
+                          <i :class="index == currentindex ? 'iconfont iconactive' : 'iconfont icon'">{{ item.icon
+                          }}</i>
+                        </div>
+                        <div :class="index == currentindex ? 'main_mainactive' : 'main_main'">
+                          <template v-for="(therm, i) in item.children" :key="i">
+                            <template v-if="therm.children">
+                              <div class="therm_hero" @click="wz(i)">
+                                <i class="iconfont thremic">{{ therm.icons }}</i>
+                                <span class="thremcx">{{ therm.nametile }}</span>
+                                <i :class="i == current ? 'iconfont thremixactive' : 'iconfont thremix'">{{
+                                  therm.icon
+                                }}</i>
+                              </div>
+                              <div :class="i == current ? 'threeboxactive' : 'threebox'">
+                                <template v-for="(three, a) in therm.children" :key="a">
+                                  <div class="threeicon" @click="threechange(a)">
+                                    <span :class="a == currentIndex ? 'threeactive' : 'three'">{{ three.nname }}</span>
+                                  </div>
+                                </template>
+                              </div>
+                            </template>
 
-                    <template v-if="item.children">
-                      <div class="box_mains">
-                        <i class="iconfont">{{ item.icons }}</i>
-                        <span @click="box_mains(index)">{{ item.title }}</span>
-                        <i :class="index == currentindex ? 'iconfont iconactive' : 'iconfont icon'">{{ item.icon }}</i>
-                      </div>
-                      <div :class="index == currentindex ? 'main_mainactive' : 'main_main'">
-                        <template v-for="(therm, i) in item.children" :key="i">
-                          <template v-if="therm.children">
-                            <div class="therm_hero" @click="wz(i)">
-                              <i class="iconfont thremic">{{ therm.icons }}</i>
-                              <span class="thremcx">{{ therm.nametile }}</span>
-                              <i :class="i == current ? 'iconfont thremixactive' : 'iconfont thremix'">{{
-                                therm.icon
-                              }}</i>
-                            </div>
-                            <div :class="i == current ? 'threeboxactive' : 'threebox'">
-                              <template v-for="(three, a) in therm.children" :key="a">
-                                <div class="threeicon" @click="threechange(a)">
-                                  <span :class="a == currentIndex ? 'threeactive' : 'three'">{{ three.nname }}</span>
-                                </div>
-                              </template>
-                            </div>
+                            <template v-else>
+                              <div :class="i == current ? 'therm_mainactive' : 'therm_main'" @click="span(i)">
+                                <span class="therm_main_span">{{ therm.nametile }}</span>
+                              </div>
+                            </template>
                           </template>
+                        </div>
+                      </template>
 
-                          <template v-else>
-                            <div :class="i == current ? 'therm_mainactive' : 'therm_main'" @click="span(i)">
-                              <span class="therm_main_span">{{ therm.nametile }}</span>
-                            </div>
-                          </template>
-                        </template>
-                      </div>
+                      <template v-else>
+                        <div class="box_main">
+                          <i class="iconfont">{{ item.icon }}</i>
+                          <span :class="index == currentindex ? 'box_mainactive' : 'span'" @click="box_main(index)">{{
+                            item.title
+                          }}</span>
+                        </div>
+                      </template>
+
                     </template>
-
-                    <template v-else>
-                      <div class="box_main">
-                        <i class="iconfont">{{ item.icon }}</i>
-                        <span :class="index == currentindex ? 'box_mainactive' : 'span'" @click="box_main(index)">{{
-                          item.title
-                        }}</span>
-                      </div>
-                    </template>
-
-                  </template>
-                </div>
-              </template>
+                  </div>
+                </template>
+              </div>
+              <div class="bigbox_right">
+                <template v-for="(r, c) in BJimg" :key="c">
+                  <div v-if="BJIMG" class="BJIMG" @click="wzryD(r, c)"
+                    :style="`background:url(${r.img}) no-repeat;background-size:100% 100%`">
+                    <span>{{ r.name }}</span>
+                  </div>
+                </template>
+              </div>
             </div>
-            <div class="bigbox_right">
-              <template v-for="(r, c) in BJimg" :key="c">
-                <div v-if="BJIMG" class="BJIMG" @click="wzryD(r,c)" :style="`background:url(${r.img}) no-repeat;background-size:100% 100%`">
-                  <span>{{ r.name }}</span>
-                </div>
-              </template>
-            </div>
-          </div>
-        </el-footer>
+          </el-footer>
+        </el-container>
       </el-container>
-    </el-container>
-  </div>
+    </div>
+  </el-watermark>
 </template>
 <script setup>
 import wzry_menu from "../../components/wzry_menu.vue";
@@ -198,19 +204,19 @@ const BJimg = ref([
     img: require('../../../public/images/home-W-6.png')
   }
 ])
-const wzryD = (r,i) => {
-  if(i === 0) {
-    router.push({path:"/zhuye"})
-  } else if(i === 1) {
-    router.push({path:"/cj"})
-  } else if(i === 2) {
-    router.push({path:"/zhanji"})
-  } else if(i === 3) {
-    router.push({path:"/yx"})
-  } else if(i === 4) {
-    router.push({path:"/grxc"})
+const wzryD = (r, i) => {
+  if (i === 0) {
+    router.push({ path: "/zhuye" })
+  } else if (i === 1) {
+    router.push({ path: "/cj" })
+  } else if (i === 2) {
+    router.push({ path: "/zhanji" })
+  } else if (i === 3) {
+    router.push({ path: "/yx" })
+  } else if (i === 4) {
+    router.push({ path: "/grxc" })
   } else {
-    router.push({path:"/qmgx"})
+    router.push({ path: "/qmgx" })
   }
 }
 const BJIMG = ref(false)
@@ -339,25 +345,25 @@ const weekText = ref("")
 const getWeek = () => {
   let week = new Date().getDay()
   switch (week) {
-    case 0 :
+    case 0:
       weekText.value = "星期日"
       break;
-    case 1 :
+    case 1:
       weekText.value = "星期一"
       break;
-    case 2 :
+    case 2:
       weekText.value = "星期二"
       break;
-    case 3 :
+    case 3:
       weekText.value = "星期三"
       break;
-    case 4 :
+    case 4:
       weekText.value = "星期四"
       break;
-    case 5 :
+    case 5:
       weekText.value = "星期五"
       break;
-    case 6 :
+    case 6:
       weekText.value = "星期六"
   }
 }
@@ -552,21 +558,26 @@ onMounted(() => {
   cursor: pointer;
   position: relative;
 }
-.img_zzf::before, .img_zzf::after{
+
+.img_zzf::before,
+.img_zzf::after {
   content: '';
   position: absolute;
   inset: 0;
   border-radius: 50%;
 }
-.img_zzf::before{
+
+.img_zzf::before {
   background: rgba(0, 0, 0, 0.6);
 }
-.img_zzf::after{
+
+.img_zzf::after {
   background: inherit;
   clip-path: circle(0% at 50% 50%);
   transition: all 0.5s;
 }
-.img_zzf:hover::after{
+
+.img_zzf:hover::after {
   background: inherit;
   clip-path: circle(50% at 50% 50%);
   transition: all 0.5s;

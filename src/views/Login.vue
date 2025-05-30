@@ -1,4 +1,6 @@
 <template>
+  <el-watermark :font="{ color: 'white' }" :content="['仅供学习', 'Github作者:zzf-gitch']" :zIndex="1000"
+    family="Microsoft YaHei" style="width:100%;height:100%;" :gap="[300,300]" watermarkStyle="font-size: 20px; font-weight: 600; color: #fff; text-shadow: 0 0 10px #000;">
   <div class="home">
     <img class="imgss" src="../assets/logowzry.png" alt="">
     <div class="Login_box" v-if="Loginshow">
@@ -18,7 +20,7 @@
         <i class="iconfont icon-youjiantou LEFT"></i>
         <span>{{ $t('Login.ReSelect') }}</span>
       </div>
-      <el-form label-position="left" ref="ruleFormRef" :model="ruleForm" :rules="rules" label-width="60px"
+      <el-form label-position="left" ref="ruleFormRef" :model="ruleForm" :rules="rules" label-width="auto"
         class="demo-ruleForm" :size="formSize">
         <el-form-item label="" prop="account">
           <el-input @keyup.enter="submitForm(ruleFormRef)" :placeholder="$t('home.account')"
@@ -114,7 +116,8 @@
       </div>
       <div class="F-main">
         <div class="main">
-          <div style="width:100%;height: 100%;display: flex;align-items: center;justify-content: center;" v-for="(m,x) in ZYimg" :key="x">
+          <div style="width:100%;height: 100%;display: flex;align-items: center;justify-content: center;"
+            v-for="(m, x) in ZYimg" :key="x">
             <img class="F-IMG" :src="m.path" alt="" @click="FI(m)">
           </div>
         </div>
@@ -138,7 +141,7 @@
   </div>
 
   <Transition>
-    <internationalization v-if="Gisshow" @close="closeG" @language="language" :Gid="Gid"/>
+    <internationalization v-if="Gisshow" @close="closeG" @language="language" :Gid="Gid" />
   </Transition>
 
   <audio id="Audio" style="display:none" :src="music" playsinline autoplay controls loop type="audio/mp3"></audio>
@@ -147,6 +150,8 @@
   <div v-if="!disasses" class="videoContainer">
     <video id="Video" class="fullscreenVideo" :src="versions" type="video/mp4" autoplay loop muted></video>
   </div>
+
+  </el-watermark>
 </template>
 
 <script setup>
@@ -186,19 +191,19 @@ console.log('Version:', version); // 输出: 1.0.0
 
 const ZYimg = reactive([
   {
-    path:require('../assets/主页1.jpg')
+    path: require('../assets/主页1.jpg')
   },
   {
-    path:require('../assets/主页2.jpg')
+    path: require('../assets/主页2.jpg')
   },
   {
-    path:require('../assets/主页3.jpg')
+    path: require('../assets/主页3.jpg')
   },
   {
-    path:require('../assets/主页4.jpg')
+    path: require('../assets/主页4.jpg')
   },
   {
-    path:require('../assets/主页5.jpg')
+    path: require('../assets/主页5.jpg')
   }
 ])
 //控制切换背景
@@ -226,7 +231,7 @@ const Gid = ref(null)
 const language = (v) => {
   locale.value = v.language
   Gid.value = v.id
-  console.log($t('home.wzry'));       
+  console.log($t('home.wzry'));
 }
 const Countines = () => {
   Gisshow.value = true
@@ -362,7 +367,7 @@ const tiao = () => {
   window.open('https://beian.miit.gov.cn/#/Integrated/index')
 }
 const print = () => {
-  console.log(`%c${process.env.VUE_APP_BASE_URL}`,'color:#376ca3;font-weight:700;font-size:40px;text-shadow: 0 0 35px #62ffff;')
+  console.log(`%c${process.env.VUE_APP_BASE_URL}`, 'color:#376ca3;font-weight:700;font-size:40px;text-shadow: 0 0 35px #62ffff;')
   console.log('%c人生如果没有梦想，那和咸鱼有什么区别。--周星驰', 'color:#376ca3;font-weight:700;font-size:40px;text-shadow: 0 0 35px #62ffff;')
 }
 onMounted(() => {
@@ -412,40 +417,46 @@ onMounted(() => {
   object-fit: cover;
 } */
 
-.demo-ruleForm>>>input {
-  opacity: 0.5;
-  border-radius: 30px !important;
-  background-color: white;
-  outline: none;
-  box-shadow: none;
+:deep(.demo-ruleForm .el-input__wrapper) {
+  opacity: 0.8;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
-.el-input /deep/ .el-input_wrapper {
-  opacity: 0.5;
-  border-radius: 30px !important;
-  background-color: white;
-  outline: none;
-  box-shadow: none;
+:deep(.demo-ruleForm .el-input__wrapper:hover) {
+  box-shadow: 0 2px 12px rgba(255, 215, 0, 0.3);
 }
 
-.el-form-item /deep/ .el-form-item__content {
-  margin-left: 0px !important;
+:deep(.demo-ruleForm .el-input__wrapper.is-focus) {
+  box-shadow: 0 2px 12px rgba(255, 215, 0, 0.5);
+  border-color: rgba(255, 215, 0, 0.7);
 }
 
-.el-input /deep/ .el-input__inner {
-  text-align: center !important;
-  font-size: 20px;
-  width: 100% !important;
+:deep(.el-form-item .el-form-item__content) {
+  margin-left: 0px;
 }
 
-.el-input /deep/ .el-input__inner:focus {
-  color: black;
+:deep(.el-input .el-input__inner) {
+  text-align: center;
+  font-size: 18px;
+  width: 100%;
+  color: #333;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
-.el-input /deep/ .el-input__inner::placeholder {
-  text-align: center !important;
-  color: white !important;
-  font-size: 15px;
+:deep(.el-input .el-input__inner:focus) {
+  color: #111;
+}
+
+:deep(.el-input .el-input__inner::placeholder) {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  font-weight: 400;
 }
 
 
@@ -666,7 +677,7 @@ a {
   cursor: pointer;
 }
 
-.icon-send-line{
+.icon-send-line {
   transform: rotate(-45deg);
   font-size: 25px;
   color: #7b93bc;
@@ -825,17 +836,17 @@ a {
   cursor: pointer;
 }
 
-.F-IMG{
-  width:90%;
+.F-IMG {
+  width: 90%;
   height: 80%;
   cursor: pointer;
 }
 
-.F-IMG:hover{
+.F-IMG:hover {
   border: 1px solid #fff;
 }
 
-.Rimg{
+.Rimg {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -848,17 +859,17 @@ a {
   justify-content: center;
 }
 
-.r-img{
+.r-img {
   width: 80%;
   height: 70%;
 }
 
-.r-img img{
+.r-img img {
   width: 100%;
   height: 100%;
 }
 
-.CLOSE{
+.CLOSE {
   position: absolute;
   right: 30px;
   top: 30px;
