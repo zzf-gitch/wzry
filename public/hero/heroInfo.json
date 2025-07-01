@@ -1,6 +1,128 @@
 {
     "heroList": [
         {
+            "id": "104",
+            "name": "司空震",
+            "headimg": "./hero/headimg/104.png",
+            "cover": "./hero/wzry/阿震.jpg",
+            "icon": "./hero/wzryicon/战士icon.png",
+            "pf": "启蛰",
+            "poster": [
+                {
+                    "name": "雷霆之王",
+                    "url": "./hero/haibao/司空震海报.png"
+                },
+                {
+                    "name": "启蛰",
+                    "url": "./hero/haibao/司空震启蛰海报.png"
+                },
+                {
+                    "name": "地狱燃心",
+                    "url": "./hero/haibao/司空震地狱燃心海报.png"
+                },
+                {
+                    "name": "愿照·山河定",
+                    "url": "./hero/haibao/司空震愿照·山河定海报.png"
+                }
+            ],
+            "Header": [
+                {
+                    "url": "./hero/heroPFheader/雷霆之王.png",
+                    "name":"雷霆之王"
+                },
+                {
+                    "url": "./hero/heroPFheader/启蛰.png",
+                    "name":"启蛰"
+                },
+                {
+                    "url": "./hero/heroPFheader/地狱燃心.png",
+                    "name":"地狱燃心"
+                },
+                {
+                    "url": "./hero/heroPFheader/愿照·山河定.png",
+                    "name":"愿照·山河定"
+                }
+            ],
+            "game": "Honor of Kings",
+            "title": "雷霆之王",
+            "stature": "185cm",
+            "Position": "战士",
+            "Specialty": "收割",
+            "money": "13888金币/588钻石",
+            "viability": "100",
+            "Damage": "100",
+            "Skill": "100",
+            "difficulty": "100",
+            "time": "2015-09-24",
+            "offset": {
+                "top": "10%",
+                "left": "-40%",
+                "transform": "scale(1.2)"
+            },
+            "url": [
+                "./hero/wzry/阿震.jpg"
+            ],
+            "skins": [
+                {
+                    "name": "岱宗",
+                    "img": "./hero/wzry/岱宗.jpg",
+                    "head": null
+                },
+                {
+                    "name": "蓝屏警告",
+                    "img": "./hero/wzry/蓝屏警告.jpg",
+                    "head": null
+                },
+                {
+                    "name": "铁甲之心",
+                    "img": "./hero/wzry/铁甲之心.jpg",
+                    "head": null
+                },
+                {
+                    "name": "穷奇",
+                    "img": "./hero/wzry/穷奇.jpg",
+                    "head": null
+                },
+                {
+                    "name": "黄金武士",
+                    "img": "./hero/wzry/黄金武士.jpg",
+                    "head": null
+                }
+            ],
+            "skills": [
+                {
+                    "name": "激怒",
+                    "desc": "典韦每一次击败英雄或者助攻会增加1层激怒效果，每层激怒效果会增加典韦12点物理攻击力，最多叠加20层",
+                    "cd": "0",
+                    "consume": 0,
+                    "img": "./hero/jineng_desc/被动.png"
+                },
+                {
+                    "name": "红眼",
+                    "desc": "典韦做好冲锋陷阵的准备，移除自身控制效果，并且增加60%移动速度，持续3秒，下一次普通攻击变更为挥砍，挥砍会对附近敌人造成额外300/350/400/450/500/550（+100%物理加成）点物理伤害",
+                    "cd": "9/8.6/8.2/7.8/7.4/7",
+                    "consume": 55,
+                    "img": "./hero/jineng_desc/一技能.png"
+                },
+                {
+                    "name": "狂暴",
+                    "desc": "暴怒的典韦践踏大地，对范围内敌人造成250/280/310/340/370/400（+100%物理加成）点物理伤害并减少其50%的移动速度，持续2秒，如果命中敌人将会突破自身极限，增加200%攻击速度和25/30/35/40/45/50%吸血效果，持续3秒",
+                    "cd": "8/7.4/6.8/6.2/5.6/5",
+                    "consume": 65,
+                    "img": "./hero/jineng_desc/二技能.jpg"
+                },
+                {
+                    "name": "嗜血",
+                    "desc": "典韦对锁定目标发起跳斩，造成300/375/450（+120%物理加成）点真实伤害并减少其50%的移动速度，持续3秒，同时会强化自身，对敌人造成的所有伤害附带目标最大生命3%的真实伤害，持续5秒",
+                    "cd": "30/25/20",
+                    "consume": 130,
+                    "img": "./hero/jineng_desc/大招.jpg"
+                }
+            ],
+            "history": "",
+            "story": ""
+        },
+        {
             "id": "23",
             "name": "典韦",
             "headimg": "./hero/headimg/23.png",
