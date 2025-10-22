@@ -1,0 +1,103 @@
+{
+    "list": [{
+        "name": "王者荣耀后台管理系统",
+        "icon": "\ue629",
+        "children": [{
+                "title": "主页",
+                "icon": "\ue60f"
+            },
+            {
+                "title": "战绩",
+                "icon": "\ue61f"
+            },
+            {
+                "title": "英雄",
+                "icon": "\ue772"
+            },
+            {
+                "title": "皮肤",
+                "icon": "\ue629",
+                "icons": "\ue654",
+                "children": [{
+                        "nametile": "皮肤展示"
+                    },
+                    {
+                        "nametile": "皮肤图鉴"
+                    }
+                ]
+            },
+            {
+                "title": "荣耀",
+                "icon": "\ue629",
+                "icons": "\ue63c",
+                "children": [{
+                        "nametile": "成就"
+                    },
+                    {
+                        "nametile": "王者生涯",
+                        "icon": "\ue629",
+                        "icons": "\ue63a",
+                        "children": [{
+                                "nname": "英雄生涯"
+                            },
+                            {
+                                "nname": "英雄切换"
+                            }
+                        ]
+                    },
+                    {
+                        "nametile": "荣誉资料"
+                    },
+                    {
+                        "nametile": "比赛荣誉"
+                    }
+                ]
+            },
+            {
+                "title": "护卫队",
+                "icon": "\ue629",
+                "icons": "\ue653",
+                "children": [{
+                        "nametile": "审判"
+                    },
+                    {
+                        "nametile": "信誉"
+                    }
+                ]
+            },
+            {
+                "title": "游戏",
+                "icon": "\ue629",
+                "icons": "\ue64a",
+                "children": [{
+                        "nametile": "对战资料"
+                    },
+                    {
+                        "nametile": "万象天宫"
+                    }
+                ]
+            },
+            {
+                "title": "社交",
+                "icon": "\ue629",
+                "icons": "\ue625",
+                "children": [{
+                        "nametile": "交友名片"
+                    },
+                    {
+                        "nametile": "个人相册"
+                    },
+                    {
+                        "nametile": "亲密关系"
+                    },
+                    {
+                        "nametile": "师徒信息"
+                    },
+                    {
+                        "nametile": "心愿单"
+                    }
+                ]
+            }
+        ]
+    }]
+}
