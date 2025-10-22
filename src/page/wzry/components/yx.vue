@@ -41,7 +41,7 @@
 </template>
 
 <script setup>
-import { getHeroInfo } from "../../../api/heromain/hero/transfer";
+import { getHeroInfo } from "@/api/heromain/hero/transfer";
 import {
   ref,
   defineEmits,

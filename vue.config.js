@@ -1,7 +1,23 @@
 const packageInfo = require('./package.json');
+const path = require('path');
+
 module.exports = {
     // publicPath: './',
     publicPath: '/wzry/',
+    configureWebpack: {
+        resolve: {
+            alias: {
+                '@': path.resolve(__dirname, 'src')
+            }
+        }
+    },
+    devServer: {
+        host: '0.0.0.0',
+        port: 8080,
+        // open: true,
+        // 确保允许外部访问
+        allowedHosts: ['all']
+    },
     pluginOptions: {
         electronBuilder: {
             builderOptions: {

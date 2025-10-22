@@ -191,19 +191,19 @@ console.log('Version:', version); // 输出: 1.0.0
 
 const ZYimg = reactive([
   {
-    path: require('../assets/主页1.jpg')
+    path: require('@/assets/主页1.jpg')
   },
   {
-    path: require('../assets/主页2.jpg')
+    path: require('@/assets/主页2.jpg')
   },
   {
-    path: require('../assets/主页3.jpg')
+    path: require('@/assets/主页3.jpg')
   },
   {
-    path: require('../assets/主页4.jpg')
+    path: require('@/assets/主页4.jpg')
   },
   {
-    path: require('../assets/主页5.jpg')
+    path: require('@/assets/主页5.jpg')
   }
 ])
 //控制切换背景
